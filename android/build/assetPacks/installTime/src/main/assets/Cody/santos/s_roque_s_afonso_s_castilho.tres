@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (106).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Santos: Roque Gonzáles, Afonso Rodrigues e João de Castilho"
+dica = "São conhecidos como mártires das missões e foram os primeiros evangelizadores do Sul do Brasil "
+imagem = ExtResource( 2 )

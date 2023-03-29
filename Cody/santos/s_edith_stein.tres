@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (21).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Santa Teresa Benedita da Cruz (Edith Stein)"
+dica = "Se converteu ao ler a autobiografia de Santa Teresa d'Ávila"
+imagem = ExtResource( 2 )

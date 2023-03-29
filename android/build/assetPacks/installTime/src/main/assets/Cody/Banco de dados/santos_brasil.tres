@@ -1,0 +1,13 @@
+[gd_resource type="Resource" load_steps=8 format=2]
+
+[ext_resource path="res://Cody/Data_base.gd" type="Script" id=1]
+[ext_resource path="res://Cody/santos/s_galvao.tres" type="Resource" id=2]
+[ext_resource path="res://Cody/santos/s_dulce_pobres.tres" type="Resource" id=3]
+[ext_resource path="res://Cody/santos/s_jose_anchieta.tres" type="Resource" id=4]
+[ext_resource path="res://Cody/santos/m_cunhau_uruacu.tres" type="Resource" id=5]
+[ext_resource path="res://Cody/santos/s_roque_s_afonso_s_castilho.tres" type="Resource" id=6]
+[ext_resource path="res://Cody/santos/s_paulina_coracao_agonizante_jesus.tres" type="Resource" id=7]
+
+[resource]
+script = ExtResource( 1 )
+santos = [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 4 ), ExtResource( 5 ) ]

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (52).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Frei Galvão"
+dica = "Primeiro Santo brasileiro"
+imagem = ExtResource( 2 )

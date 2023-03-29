@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (70).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "São Tiago Maior"
+dica = "Irmão do apóstolo João, o Evangelista"
+imagem = ExtResource( 2 )

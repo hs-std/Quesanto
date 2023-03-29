@@ -1,0 +1,40 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://Sons/Musica menu.wav" type="AudioStream" id=1]
+[ext_resource path="res://Sons/Clic.wav" type="AudioStream" id=2]
+[ext_resource path="res://Sons/Certo.wav" type="AudioStream" id=3]
+[ext_resource path="res://Sons/Errado.wav" type="AudioStream" id=4]
+[ext_resource path="res://Sons/alerta.wav" type="AudioStream" id=5]
+[ext_resource path="res://Sons/som_do_botao.wav" type="AudioStream" id=6]
+[ext_resource path="res://Cody/GameAudio.gd" type="Script" id=7]
+
+[node name="GameAudio" type="Node"]
+script = ExtResource( 7 )
+
+[node name="Efeitos" type="Node" parent="."]
+
+[node name="Tempo" type="AudioStreamPlayer" parent="Efeitos"]
+stream = ExtResource( 2 )
+bus = "Efeitos"
+
+[node name="Certo" type="AudioStreamPlayer" parent="Efeitos"]
+stream = ExtResource( 3 )
+bus = "Efeitos"
+
+[node name="Errado" type="AudioStreamPlayer" parent="Efeitos"]
+stream = ExtResource( 4 )
+bus = "Efeitos"
+
+[node name="Alerta" type="AudioStreamPlayer" parent="Efeitos"]
+stream = ExtResource( 5 )
+bus = "Efeitos"
+
+[node name="som_botao" type="AudioStreamPlayer" parent="Efeitos"]
+stream = ExtResource( 6 )
+bus = "Efeitos"
+
+[node name="Musica" type="Node" parent="."]
+
+[node name="Musica" type="AudioStreamPlayer" parent="Musica"]
+stream = ExtResource( 1 )
+bus = "Musica"

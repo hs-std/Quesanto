@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (139).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Santo Heriberto"
+dica = "Conta-se que, quando ele nasceu, uma luz extraordinária brilhou sobre a casa de seus pais. Foi eleito arcebispo da cidade de Colônia, Alemanha, no ano 999"
+imagem = ExtResource( 2 )

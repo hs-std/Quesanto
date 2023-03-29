@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/som_do_botao.mp3-ffe0cb7f5ffcd9b3cdf129e64ca45886.mp3str"
+
+[deps]
+
+source_file="res://Sons/som_do_botao.mp3"
+dest_files=[ "res://.import/som_do_botao.mp3-ffe0cb7f5ffcd9b3cdf129e64ca45886.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

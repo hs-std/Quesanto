@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (134).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "São Luís"
+dica = "Rei da França. Padroeiro da Ordem Franciscana Secular. Convocou uma cruzada e se tornou prisioneiro, ficou conhecido entre os muçulmanos como “o sultão justo”"
+imagem = ExtResource( 2 )

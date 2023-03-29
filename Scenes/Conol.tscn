@@ -1,0 +1,152 @@
+[gd_scene load_steps=20 format=2]
+
+[ext_resource path="res://Scenes/Button_tex.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Scenes/Movmento.tscn" type="PackedScene" id=3]
+[ext_resource path="res://Cody/Conol.gd" type="Script" id=4]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/vol_pres.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/vol_n.png" type="Texture" id=10]
+
+[sub_resource type="DynamicFont" id=7]
+size = 150
+outline_size = 7
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 50
+outline_size = 7
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 50
+outline_size = 5
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 5 )
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0.427451, 0.329412, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.027451, 0.262745, 0.207843, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=3]
+content_margin_left = 8.0
+bg_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="Theme" id=11]
+CheckBox/icons/checked = ExtResource( 8 )
+CheckBox/icons/checked_disabled = ExtResource( 6 )
+CheckBox/icons/unchecked = ExtResource( 7 )
+CheckBox/icons/unchecked_disabled = ExtResource( 8 )
+Label/colors/font_color = Color( 1, 1, 1, 1 )
+Label/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+Label/colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+Label/constants/shadow_offset_y = 10
+Label/fonts/font = SubResource( 7 )
+Label/styles/normal = null
+RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+RichTextLabel/constants/shadow_offset_y = 7
+RichTextLabel/fonts/bold_font = SubResource( 8 )
+RichTextLabel/fonts/normal_font = SubResource( 9 )
+VScrollBar/styles/grabber = SubResource( 1 )
+VScrollBar/styles/grabber_highlight = SubResource( 1 )
+VScrollBar/styles/grabber_pressed = SubResource( 2 )
+VScrollBar/styles/scroll = SubResource( 3 )
+
+[sub_resource type="DynamicFont" id=12]
+size = 900
+outline_size = 20
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=10]
+CheckBox/icons/checked = ExtResource( 8 )
+CheckBox/icons/checked_disabled = ExtResource( 6 )
+CheckBox/icons/unchecked = ExtResource( 7 )
+CheckBox/icons/unchecked_disabled = ExtResource( 8 )
+Label/colors/font_color = Color( 1, 1, 1, 1 )
+Label/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+Label/colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+Label/constants/shadow_offset_y = 50
+Label/fonts/font = SubResource( 12 )
+Label/styles/normal = null
+RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+RichTextLabel/constants/shadow_offset_y = 7
+RichTextLabel/fonts/bold_font = SubResource( 8 )
+RichTextLabel/fonts/normal_font = SubResource( 9 )
+VScrollBar/styles/grabber = SubResource( 1 )
+VScrollBar/styles/grabber_highlight = SubResource( 1 )
+VScrollBar/styles/grabber_pressed = SubResource( 2 )
+VScrollBar/styles/scroll = SubResource( 3 )
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_scale = Vector2( 1.00002, 1.00002 )
+theme = SubResource( 11 )
+script = ExtResource( 4 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0.670588, 0.509804, 1 )
+
+[node name="Panel" parent="." instance=ExtResource( 3 )]
+modulate = Color( 0, 0.427451, 0.329412, 0.262745 )
+
+[node name="contador" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 43.0
+margin_bottom = 94.0
+theme = SubResource( 10 )
+text = "5"
+align = 1
+valign = 1
+
+[node name="Label2" type="Label" parent="."]
+margin_top = 96.0
+margin_right = 2340.0
+margin_bottom = 180.0
+text = "O jogo começa em..."
+align = 1
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="Label" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+text = "Posicione o celular na testa!"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="Voltar" parent="Label" instance=ExtResource( 1 )]
+margin_left = 94.0
+margin_top = 66.0
+margin_right = 234.0
+margin_bottom = 206.0
+normal = ExtResource( 10 )
+press = ExtResource( 9 )
+hovered = ExtResource( 10 )
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="press" from="Label/Voltar" to="." method="_on_Voltar_pressed"]

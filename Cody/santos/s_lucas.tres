@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (101).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "São Lucas"
+dica = "Pintou o ícone da Theotokos"
+imagem = ExtResource( 2 )

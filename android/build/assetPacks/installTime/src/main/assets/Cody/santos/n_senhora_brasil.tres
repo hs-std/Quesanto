@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (117).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Nossa Senhora do Brasil"
+dica = "Título Mariano | Essa devoção vem do início do século 17, com a existência de uma imagem considerada milagrosa entre uma missão indígena em Pernambuco"
+imagem = ExtResource( 2 )

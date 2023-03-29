@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (125).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Nossa Senhora da Penha"
+dica = "Título Mariano | Um monge sonhou com uma imagem de Nossa Senhora enterrada no alto de uma montanha. A imagem estaria ali devido a uma guerra entre franceses e muçulmanos"
+imagem = ExtResource( 2 )

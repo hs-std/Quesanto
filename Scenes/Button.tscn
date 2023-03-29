@@ -1,0 +1,145 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Themes/Botões.tres" type="Theme" id=1]
+[ext_resource path="res://Cody/Button.gd" type="Script" id=2]
+
+[sub_resource type="StyleBoxEmpty" id=6]
+
+[sub_resource type="StyleBoxEmpty" id=7]
+
+[sub_resource type="StyleBoxEmpty" id=8]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_size = 5
+shadow_offset = Vector2( 0, 5 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.64, 1, 0.916, 1 )
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_offset = Vector2( 0, 5 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0, 0.427451, 0.329412, 1 )
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_offset = Vector2( 0, 5 )
+
+[sub_resource type="StyleBoxFlat" id=3]
+bg_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_offset = Vector2( 0, 5 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0, 0, 0, 0 )
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_offset = Vector2( 0, 5 )
+
+[node name="Button" type="Button"]
+margin_right = 410.0
+margin_bottom = 100.0
+rect_min_size = Vector2( 410, 130 )
+size_flags_horizontal = 3
+theme = ExtResource( 1 )
+custom_styles/hover = SubResource( 6 )
+custom_styles/pressed = SubResource( 7 )
+custom_styles/focus = SubResource( 8 )
+custom_styles/normal = SubResource( 1 )
+script = ExtResource( 2 )
+
+[node name="cor" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Panel2" type="Panel" parent="cor"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -17.0
+margin_top = 3.0
+margin_right = 388.0
+margin_bottom = 47.0
+rect_pivot_offset = Vector2( 200, 0 )
+mouse_filter = 2
+custom_styles/panel = SubResource( 2 )
+
+[node name="Panel4" type="Panel" parent="cor"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -18.0
+margin_top = 103.0
+margin_right = 388.0
+margin_bottom = 128.0
+rect_pivot_offset = Vector2( 200, 0 )
+mouse_filter = 2
+custom_styles/panel = SubResource( 5 )
+
+[node name="Panel3" type="Panel" parent="cor"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -17.0
+margin_top = 13.0
+margin_right = 387.0
+margin_bottom = 118.0
+rect_pivot_offset = Vector2( 200, 0 )
+mouse_filter = 2
+custom_styles/panel = SubResource( 3 )
+
+[node name="Label" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -113.0
+margin_top = -46.0
+margin_right = 113.0
+margin_bottom = 46.0
+rect_pivot_offset = Vector2( 99, 46.5 )
+text = " "
+align = 1
+valign = 1
+
+[node name="Panel" type="Panel" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -205.0
+margin_top = -65.0
+margin_right = 205.0
+margin_bottom = 65.0
+rect_pivot_offset = Vector2( 205, 65 )
+mouse_filter = 2
+custom_styles/panel = SubResource( 4 )
+
+[connection signal="mouse_entered" from="." to="." method="_on_Button_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_Button_mouse_exited"]
+[connection signal="pressed" from="." to="." method="_on_Button_pressed"]

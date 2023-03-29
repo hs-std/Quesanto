@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/alerta.mp3-a32a24ecdd49c428780ef855e15b7cac.mp3str"
+
+[deps]
+
+source_file="res://Sons/alerta.mp3"
+dest_files=[ "res://.import/alerta.mp3-a32a24ecdd49c428780ef855e15b7cac.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (95).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Santa Margarida da Antioquia"
+dica = "Diz a tradição que ela foi visitada por satanás como um dragão que a engoliu, mas ela conseguiu sair do seu ventre usando um crucifixo"
+imagem = ExtResource( 2 )

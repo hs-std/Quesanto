@@ -1,0 +1,248 @@
+[gd_scene load_steps=24 format=2]
+
+[ext_resource path="res://Sprites/Menu/Backgraund.png" type="Texture" id=1]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Sprites/Santos/0 (1).png" type="Texture" id=3]
+[ext_resource path="res://Cody/Jogo.gd" type="Script" id=4]
+[ext_resource path="res://Scenes/Button.tscn" type="PackedScene" id=5]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://Cody/Resultado.gd" type="Script" id=7]
+[ext_resource path="res://Fontes/NA50.tres" type="DynamicFont" id=8]
+[ext_resource path="res://Sprites/vol_pres.png" type="Texture" id=9]
+[ext_resource path="res://Themes/Botões.tres" type="Theme" id=10]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=12]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=13]
+[ext_resource path="res://Sprites/vol_n.png" type="Texture" id=14]
+[ext_resource path="res://Scenes/Button_tex.tscn" type="PackedScene" id=15]
+
+[sub_resource type="DynamicFont" id=7]
+size = 50
+outline_size = 5
+use_filter = true
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 50
+outline_size = 7
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=9]
+size = 50
+outline_size = 5
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 6 )
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0.427451, 0.329412, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.027451, 0.262745, 0.207843, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=3]
+content_margin_left = 8.0
+bg_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="Theme" id=10]
+CheckBox/icons/checked = ExtResource( 13 )
+CheckBox/icons/checked_disabled = ExtResource( 11 )
+CheckBox/icons/unchecked = ExtResource( 12 )
+CheckBox/icons/unchecked_disabled = ExtResource( 13 )
+Label/colors/font_color = Color( 1, 1, 1, 1 )
+Label/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+Label/colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+Label/constants/shadow_offset_y = 5
+Label/fonts/font = SubResource( 7 )
+Label/styles/normal = null
+RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 1 )
+RichTextLabel/fonts/bold_font = SubResource( 8 )
+RichTextLabel/fonts/normal_font = SubResource( 9 )
+VScrollBar/styles/grabber = SubResource( 1 )
+VScrollBar/styles/grabber_highlight = SubResource( 1 )
+VScrollBar/styles/grabber_pressed = SubResource( 2 )
+VScrollBar/styles/scroll = SubResource( 3 )
+
+[sub_resource type="StyleBoxFlat" id=4]
+bg_color = Color( 0, 0.670588, 0.509804, 1 )
+border_width_left = 10
+border_width_top = 10
+border_width_right = 10
+border_width_bottom = 10
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+shadow_color = Color( 0, 0, 0, 1 )
+shadow_size = 5
+shadow_offset = Vector2( 0, 15 )
+
+[node name="Node2D" type="Node2D"]
+scale = Vector2( 1.00001, 1.00001 )
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_vertical_guides_": [ 1168.0 ]
+}
+
+[node name="fun" type="Sprite" parent="."]
+position = Vector2( 1226.99, 989.49 )
+scale = Vector2( 1.18375, 1.57217 )
+texture = ExtResource( 1 )
+vframes = 3
+frame = 1
+
+[node name="img" type="Sprite" parent="."]
+position = Vector2( 1169, 590 )
+scale = Vector2( 0.717969, 0.717969 )
+texture = ExtResource( 3 )
+
+[node name="Nome" type="Label" parent="."]
+margin_top = 127.0
+margin_right = 2330.0
+margin_bottom = 211.0
+theme = ExtResource( 10 )
+text = "Nome do Santo"
+align = 1
+valign = 1
+autowrap = true
+
+[node name="Dica" type="Label" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 132.0
+margin_top = 952.0
+margin_right = 2208.0
+margin_bottom = 1061.0
+theme = SubResource( 10 )
+text = "Dica"
+align = 1
+autowrap = true
+
+[node name="pon" type="Label" parent="."]
+margin_left = 63.9994
+margin_top = 27.9997
+margin_right = 2394.0
+margin_bottom = 120.0
+theme = ExtResource( 10 )
+text = "Pontos: 00"
+
+[node name="Tem" type="Label" parent="."]
+margin_left = 2168.0
+margin_top = 32.0
+margin_right = 4498.0
+margin_bottom = 116.0
+theme = ExtResource( 10 )
+text = "01"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="cronometro" type="Timer" parent="."]
+
+[node name="Cor" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -256.0
+margin_top = -58.0
+margin_right = 2783.0
+margin_bottom = 2147.0
+rect_min_size = Vector2( 120, 300 )
+color = Color( 0, 0, 0, 0.584314 )
+
+[node name="Resultado" type="Node2D" parent="."]
+script = ExtResource( 7 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Panel" type="Panel" parent="Resultado"]
+margin_left = 380.0
+margin_top = -1088.0
+margin_right = 1960.0
+margin_bottom = -104.0
+custom_styles/panel = SubResource( 4 )
+
+[node name="Label" type="Label" parent="Resultado/Panel"]
+margin_left = 264.0
+margin_top = 43.9999
+margin_right = 1316.0
+margin_bottom = 136.0
+theme = ExtResource( 10 )
+text = "resultado"
+align = 1
+uppercase = true
+
+[node name="RE" type="RichTextLabel" parent="Resultado/Panel"]
+margin_left = 104.0
+margin_top = 152.0
+margin_right = 1476.0
+margin_bottom = 720.0
+theme = ExtResource( 10 )
+bbcode_enabled = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PTS" type="Label" parent="Resultado/Panel"]
+margin_left = 8.0
+margin_top = 745.0
+margin_right = 1572.0
+margin_bottom = 829.0
+theme = ExtResource( 10 )
+custom_fonts/font = ExtResource( 8 )
+text = "resultado"
+align = 1
+
+[node name="Menu" parent="Resultado/Panel" instance=ExtResource( 5 )]
+margin_left = 164.0
+margin_top = 819.0
+margin_right = 574.0
+margin_bottom = 949.0
+size_flags_horizontal = 1
+text = "Menu"
+
+[node name="Jogar" parent="Resultado/Panel" instance=ExtResource( 5 )]
+margin_left = 1007.0
+margin_top = 819.0
+margin_right = 1417.0
+margin_bottom = 949.0
+size_flags_horizontal = 1
+text = "Jogar"
+
+[node name="Tween" type="Tween" parent="Resultado/Panel"]
+
+[node name="Voltar" parent="." instance=ExtResource( 15 )]
+visible = false
+margin_left = 2133.98
+margin_top = 857.991
+margin_right = 2273.98
+margin_bottom = 997.991
+normal = ExtResource( 14 )
+press = ExtResource( 9 )
+hovered = ExtResource( 14 )
+
+[connection signal="acertou" from="." to="." method="_on_Node2D_acertou"]
+[connection signal="errou" from="." to="." method="_on_Node2D_errou"]
+[connection signal="lmt" from="." to="." method="_on_Node2D_lmt"]
+[connection signal="msp" from="." to="." method="_on_Node2D_msp"]
+[connection signal="no" from="." to="." method="_on_Node2D_no"]
+[connection signal="stt" from="." to="." method="_on_Node2D_stt"]
+[connection signal="timeout" from="cronometro" to="." method="_on_cronometro_timeout"]
+[connection signal="pressed" from="Resultado/Panel/Menu" to="Resultado" method="_on_Menu_pressed"]
+[connection signal="pressed" from="Resultado/Panel/Jogar" to="Resultado" method="_on_Jogar_pressed"]
+[connection signal="press" from="Voltar" to="." method="_on_Voltar_press"]

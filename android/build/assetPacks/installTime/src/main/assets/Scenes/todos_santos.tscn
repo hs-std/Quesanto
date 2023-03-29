@@ -1,0 +1,134 @@
+[gd_scene load_steps=21 format=2]
+
+[ext_resource path="res://Cody/todos_santos.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Button_tex.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Cody/Banco de dados/geral_todos.tres" type="Resource" id=3]
+[ext_resource path="res://Sprites/vol_n.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/vol_pres.png" type="Texture" id=6]
+[ext_resource path="res://Themes/BTM-P.tres" type="StyleBox" id=7]
+[ext_resource path="res://Themes/BTM.tres" type="StyleBox" id=8]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=10]
+[ext_resource path="res://Sprites/Menu/BT_des_on.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=12]
+[ext_resource path="res://Fontes/NA80.tres" type="DynamicFont" id=13]
+[ext_resource path="res://Scenes/Movmento.tscn" type="PackedScene" id=14]
+[ext_resource path="res://Themes/Botões.tres" type="Theme" id=15]
+
+[sub_resource type="StyleBoxEmpty" id=10]
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+expand_margin_left = 15.0
+expand_margin_right = 15.0
+expand_margin_top = 15.0
+expand_margin_bottom = 15.0
+shadow_color = Color( 0, 0.427451, 0.329412, 1 )
+shadow_size = 5
+shadow_offset = Vector2( 0, 5 )
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0.427451, 0.329412, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 0.027451, 0.262745, 0.207843, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="StyleBoxFlat" id=3]
+content_margin_left = 8.0
+bg_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+corner_radius_top_left = 20
+corner_radius_top_right = 20
+corner_radius_bottom_right = 20
+corner_radius_bottom_left = 20
+
+[sub_resource type="Theme" id=11]
+Button/fonts/font = ExtResource( 13 )
+Button/styles/disabled = SubResource( 10 )
+Button/styles/focus = SubResource( 9 )
+Button/styles/hover = ExtResource( 8 )
+Button/styles/normal = ExtResource( 8 )
+Button/styles/pressed = ExtResource( 7 )
+CheckBox/icons/checked = ExtResource( 10 )
+CheckBox/icons/checked_disabled = ExtResource( 9 )
+CheckBox/icons/unchecked = ExtResource( 12 )
+CheckBox/icons/unchecked_disabled = ExtResource( 11 )
+VScrollBar/styles/grabber = SubResource( 1 )
+VScrollBar/styles/grabber_highlight = SubResource( 1 )
+VScrollBar/styles/grabber_pressed = SubResource( 2 )
+VScrollBar/styles/scroll = SubResource( 3 )
+
+[node name="todos_santos" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = SubResource( 11 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_horizontal_guides_": [ 118.0 ],
+"_edit_vertical_guides_": [ 869.0, 1472.0, 1125.0, 1216.0, 1227.0, 1112.0, 2820.0 ]
+}
+base_de_dados = ExtResource( 3 )
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0.670588, 0.509804, 1 )
+
+[node name="Panel" parent="." instance=ExtResource( 14 )]
+modulate = Color( 0, 0.427451, 0.329412, 0.262745 )
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 114.0
+custom_constants/margin_right = 85
+custom_constants/margin_top = 110
+custom_constants/margin_left = 85
+custom_constants/margin_bottom = 0
+
+[node name="HSplitContainer" type="ScrollContainer" parent="MarginContainer"]
+margin_left = 85.0
+margin_top = 110.0
+margin_right = 2255.0
+margin_bottom = 966.0
+size_flags_horizontal = 3
+scroll_horizontal_enabled = false
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HSplitContainer"]
+margin_right = 2170.0
+size_flags_horizontal = 3
+alignment = 1
+
+[node name="Voltar" parent="." instance=ExtResource( 2 )]
+margin_left = 94.0
+margin_top = 66.0
+margin_right = 234.0
+margin_bottom = 206.0
+normal = ExtResource( 4 )
+press = ExtResource( 6 )
+hovered = ExtResource( 4 )
+
+[node name="titulo" type="Label" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 260.0
+margin_top = 64.0
+margin_right = -260.0
+margin_bottom = -864.0
+theme = ExtResource( 15 )
+text = "TODOS OS SANTOS"
+align = 1
+autowrap = true
+
+[connection signal="press" from="Voltar" to="." method="_on_Voltar_pressed"]

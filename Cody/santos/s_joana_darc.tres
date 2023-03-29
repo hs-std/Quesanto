@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (93).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Santa Joana D'arc"
+dica = "Tinha experiencias místicas com São Miguel, Santa Margarida e Santa Catarina, que lhe diziam para salvar a França"
+imagem = ExtResource( 2 )

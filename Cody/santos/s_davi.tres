@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (137).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "São Davi"
+dica = "Quando foi consagrado Arcebispo uma pomba pousou no seu ombro. Padroeiro do País de Gales e Protetor dos pombos"
+imagem = ExtResource( 2 )

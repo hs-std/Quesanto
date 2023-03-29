@@ -1,0 +1,10 @@
+[gd_resource type="Resource" load_steps=3 format=2]
+
+[ext_resource path="res://Cody/Santos_recurso.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Santos/0 (123).png" type="Texture" id=2]
+
+[resource]
+script = ExtResource( 1 )
+nome = "Nossa Senhora da Esperança"
+dica = "Título Mariano | Esse título exprime a esperança de Maria em ver seu Filho Santo ao fim da gravidez"
+imagem = ExtResource( 2 )
