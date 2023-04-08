@@ -1,5 +1,6 @@
 ## Que Santo sou eu? / What saint am I?
 
+ #<span style="color:red"> *_Está quebrado! Estou portando para godot 4.0. / It's broken! I am porting to godot 4.0._*</span>
 
 ### O que é? / What is?
  É um jogo de educacional e religioso sobre os santos da igreja católica.
@@ -17,3 +18,5 @@ It is a guessing quiz about the saints of the Catholic Church.
 Ideal to play with two or more people. One person will have a cell phone on his forehead, and will have 1 minute to guess who is the saint that appears. To get information, she can ask questions to the other players, who answer with "yes" or "no"; or the other players can give hints about the life of the saint in question. The player who scores the most points wins.
 
 [Download](https://play.google.com/store/apps/details?id=com.hs.qsse&hl=pt_BR&gl=US)
+
+ 
