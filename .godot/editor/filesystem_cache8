@@ -1,0 +1,402 @@
+2a60927148abd1d33b818b535e306557
+::res://::1680985588
+default_bus_layout.tres::AudioBusLayout::-1::1680985332::0::1::::<><>::
+default_env.tres::Environment::-1::1680985332::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1675314872::0::1::::<><>::
+Google_Play.png::CompressedTexture2D::5998005758728745235::1680225694::1680985598::1::::<><>::
+icon-ad-bk.png::CompressedTexture2D::5205722337475493665::1656935521::1680985598::1::::<><>::
+icon-ad-fk.png::CompressedTexture2D::6997026267481346862::1656935386::1680985599::1::::<><>::
+icon-ad.png::CompressedTexture2D::3020203013443945127::1620317145::1680985599::1::::<><>::
+icon.png::CompressedTexture2D::576467288553993242::1620073547::1680985601::1::::<><>::
+inicio.png::CompressedTexture2D::7094211233345697347::1637378689::1680985599::1::::<><>::
+open.ogv::VideoStreamTheora::-1::1639170455::0::1::::<><>::
+README.md::TextFile::-1::1680229344::0::1::::<><>::
+::res://android/::1675267365
+::res://android/plugins/::1675267365
+::res://Cody/::1675266801
+Button.gd::GDScript::-1::1680985335::0::1::::<>Button<>::
+Button_tex.gd::GDScript::-1::1680985335::0::1::::<>Panel<>::
+categoria.gd::GDScript::-1::1680985335::0::1::::<>CenterContainer<>::
+Config.gd::GDScript::-1::1680985335::0::1::::<>Node2D<>::
+Conol.gd::GDScript::-1::1680985335::0::1::::<>Control<>::
+Control.gd::GDScript::-1::1680985335::0::1::::<>Control<>::
+Data_base.gd::GDScript::-1::1680985335::0::1::::data_base<>Resource<>::
+GameAudio.gd::GDScript::-1::1680985335::0::1::::<>Node<>::
+Globals.gd::GDScript::-1::1680985336::0::1::::<>Node<>::
+Jogo.gd::GDScript::-1::1680985336::0::1::::<>Node2D<>::
+Lista.gd::GDScript::-1::1680985336::0::1::::<>VBoxContainer<>::
+Load.gd::GDScript::-1::1680985336::0::1::::<>Control<>::
+Movmento.gd::GDScript::-1::1680985336::0::1::::<>Panel<>::
+Open.gd::GDScript::-1::1680985336::0::1::::<>Control<>::
+Resultado.gd::GDScript::-1::1680985336::0::1::::<>Node2D<>::
+Santos_recurso.gd::GDScript::-1::1680985336::0::1::::Santo<>Resource<>::
+selecao.gd::GDScript::-1::1680985336::0::1::::<>Control<>::
+Sobre.gd::GDScript::-1::1680985336::0::1::::<>Control<>::
+todos_santos.gd::GDScript::-1::1680985336::0::1::::<>Control<>::
+::res://Cody/Banco de dados/::1672985251
+geral_todos.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/santos/s_bruno.tres<>res://Cody/santos/n_senhora_desatadora_nos.tres<>res://Cody/santos/n_senhora_escada.tres<>res://Cody/santos/n_senhora_cabeca.tres<>res://Cody/santos/n_senhora_auxiliadora.tres<>res://Cody/santos/m_cunhau_uruacu.tres<>res://Cody/santos/s_luis.tres<>res://Cody/santos/s_heriberto.tres<>res://Cody/santos/n_senhora_desterro.tres<>res://Cody/santos/s_isidoro.tres<>res://Cody/santos/n_senhora_boamorte.tres<>res://Cody/santos/n_senhora_brasil.tres<>res://Cody/santos/n_senhora_bom_conselho.tres<>res://Cody/santos/s_teresa_calcuta.tres<>res://Cody/santos/n_senhora_consolacao.tres<>res://Cody/santos/n_senhora_paz.tres<>res://Cody/santos/s_jose_anchieta.tres<>res://Cody/santos/s_policarpo.tres<>res://Cody/santos/n_senhora_esperanca.tres<>res://Cody/santos/n_senhora_akita.tres<>res://Cody/santos/n_senhora_kibeho.tres<>res://Cody/santos/n_senhora_abadia.tres<>res://Cody/santos/s_casimiro.tres<>res://Cody/santos/s_ambrosio.tres<>res://Cody/santos/n_senhora_vitorias.tres<>res://Cody/santos/n_senhora_nazare.tres<>res://Cody/santos/s_agueda.tres<>res://Cody/santos/s_bernadette.tres<>res://Cody/santos/s_ireneu_lyon.tres<>res://Cody/santos/n_senhora_penha.tres<>res://Cody/santos/n_senhora_o.tres<>res://Cody/santos/s_paulina_coracao_agonizante_jesus.tres<>res://Cody/santos/n_senhora_copacabana.tres<>res://Cody/santos/n_senhora_sorriso.tres<>res://Cody/santos/n_senhora_caravaggio.tres<>res://Cody/santos/s_branca_castela.tres<>res://Cody/santos/n_senhora_amparo.tres<>res://Cody/santos/s_davi.tres<>res://Cody/santos/s_roque_s_afonso_s_castilho.tres<>res://Cody/santos/s_gianna_beretta_molla.tres<>res://Cody/santos/s_jose_cupertino.tres<>res://Cody/santos/s_padre_pio.tres<>res://Cody/santos/s_teresinha_menino_jesus.tres<>res://Cody/santos/s_francisco_sales.tres<>res://Cody/santos/s_miguel_arcanjo.tres<>res://Cody/Data_base.gd<>res://Cody/santos/s_bakhita.tres<>res://Cody/santos/s_monica.tres<>res://Cody/santos/s_dulce_pobres.tres<>res://Cody/santos/s_josemaria_escriva.tres<>res://Cody/santos/s_edith_stein.tres<>res://Cody/santos/s_rita_cassia.tres<>res://Cody/santos/s_maximiliano_maria_kolbe.tres<>res://Cody/santos/s_teresa_davila.tres<>res://Cody/santos/s_joao_paulo_II.tres<>res://Cody/santos/s_antonio.tres<>res://Cody/santos/s_agostinho_hipona.tres<>res://Cody/santos/s_gabriel_nossa_senhora_dores.tres<>res://Cody/santos/s_benedito.tres<>res://Cody/santos/s_sebastiao.tres<>res://Cody/santos/s_expedito.tres<>res://Cody/santos/s_jose_sanchez_del_rio.tres<>res://Cody/santos/s_jorge.tres<>res://Cody/santos/s_afonso_maria_ligorio.tres<>res://Cody/santos/s_catarina_sena.tres<>res://Cody/santos/s_gemma_galgani.tres<>res://Cody/santos/n_senhora_perpetuo_socorro.tres<>res://Cody/santos/n_senhora_guadalupe.tres<>res://Cody/santos/s_judas_tadeu.tres<>res://Cody/santos/s_cecilia.tres<>res://Cody/santos/s_perpetua_felicidade.tres<>res://Cody/santos/s_luzia.tres<>res://Cody/santos/n_senhora_salette.tres<>res://Cody/santos/n_senhora_fatima .tres<>res://Cody/santos/n_senhora_dores.tres<>res://Cody/santos/n_senhora_carmo.tres<>res://Cody/santos/s_francisco_assis.tres<>res://Cody/santos/n_senhora_lourdes.tres<>res://Cody/santos/n_senhora_gracas.tres<>res://Cody/santos/n_senhora_rosa_mistica.tres<>res://Cody/santos/n_senhora_conceicao.tres<>res://Cody/santos/n_senhora_aparecida.tres<>res://Cody/santos/s_domingos_savio.tres<>res://Cody/santos/s_jose.tres<>res://Cody/santos/s_clara_assis.tres<>res://Cody/santos/s_bento.tres<>res://Cody/santos/s_bras.tres<>res://Cody/santos/s_andre.tres<>res://Cody/santos/s_beatriz.tres<>res://Cody/santos/s_barnabe.tres<>res://Cody/santos/s_tarcisio.tres<>res://Cody/santos/s_joao_evangelista.tres<>res://Cody/santos/s_joao_XXIII.tres<>res://Cody/santos/s_maria_madalena.tres<>res://Cody/santos/s_jacinta_marto.tres<>res://Cody/santos/s_francisco_marto.tres<>res://Cody/santos/s_cristovao.tres<>res://Cody/santos/s_cosme_damiao.tres<>res://Cody/santos/s_dom_bosco.tres<>res://Cody/santos/s_tiago_menor.tres<>res://Cody/santos/s_escolastica.tres<>res://Cody/santos/s_jeronimo.tres<>res://Cody/santos/s_galvao.tres<>res://Cody/santos/s_filipe.tres<>res://Cody/santos/s_mateus.tres<>res://Cody/santos/s_lazaro.tres<>res://Cody/santos/s_tiago_maior.tres<>res://Cody/santos/s_simao.tres<>res://Cody/santos/s_paulo.tres<>res://Cody/santos/s_tome.tres<>res://Cody/santos/s_matias.tres<>res://Cody/santos/s_helena.tres<>res://Cody/santos/s_raimundo_nonato.tres<>res://Cody/santos/s_rebeca.tres<>res://Cody/santos/s_veronica.tres<>res://Cody/santos/s_rafael_arcanjo.tres<>res://Cody/santos/santana.tres<>res://Cody/santos/s_paulo_VI.tres<>res://Cody/santos/s_onofre.tres<>res://Cody/santos/s_martinho_lima.tres<>res://Cody/santos/s_bartolomeu.tres<>res://Cody/santos/s_pedro.tres<>res://Cody/santos/s_joao_cruz.tres<>res://Cody/santos/s_anjos_guarda.tres<>res://Cody/santos/s_joaquim.tres<>res://Cody/santos/s_inacio_loyola.tres<>res://Cody/santos/s_longuinho.tres<>res://Cody/santos/s_lourenco.tres<>res://Cody/santos/s_luis_martin.tres<>res://Cody/santos/s_joana_darc.tres<>res://Cody/santos/s_marcos.tres<>res://Cody/santos/s_lucas.tres<>res://Cody/santos/s_domingos_gusmao.tres<>res://Cody/santos/s_pio_X.tres<>res://Cody/santos/s_zelia_martin.tres<>res://Cody/santos/s_margarida_antioquia.tres<>res://Cody/santos/s_tomas_aquino.tres<>res://Cody/santos/s_tomas_more.tres<>res://Cody/santos/s_joao_batista.tres<>res://Cody/santos/s_gabriel_arcanjo.tres<>res://Cody/santos/s_januario.tres
+icon_bd.png::CompressedTexture2D::168874753619726049::1649941815::1680985605::1::::<><>::
+santas_mulheres.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/santos/s_teresinha_menino_jesus.tres<>res://Cody/santos/s_gianna_beretta_molla.tres<>res://Cody/Data_base.gd<>res://Cody/santos/s_teresa_davila.tres<>res://Cody/santos/s_edith_stein.tres<>res://Cody/santos/s_monica.tres<>res://Cody/santos/s_catarina_sena.tres<>res://Cody/santos/s_rita_cassia.tres<>res://Cody/santos/s_bakhita.tres<>res://Cody/santos/s_dulce_pobres.tres<>res://Cody/santos/s_luzia.tres<>res://Cody/santos/s_cecilia.tres<>res://Cody/santos/n_senhora_gracas.tres<>res://Cody/santos/n_senhora_salette.tres<>res://Cody/santos/s_gemma_galgani.tres<>res://Cody/santos/n_senhora_aparecida.tres<>res://Cody/santos/n_senhora_guadalupe.tres<>res://Cody/santos/n_senhora_conceicao.tres<>res://Cody/santos/n_senhora_dores.tres<>res://Cody/santos/n_senhora_rosa_mistica.tres<>res://Cody/santos/n_senhora_carmo.tres<>res://Cody/santos/n_senhora_fatima .tres<>res://Cody/santos/s_perpetua_felicidade.tres<>res://Cody/santos/n_senhora_lourdes.tres<>res://Cody/santos/n_senhora_perpetuo_socorro.tres<>res://Cody/santos/s_beatriz.tres<>res://Cody/santos/s_escolastica.tres<>res://Cody/santos/s_maria_madalena.tres<>res://Cody/santos/s_jacinta_marto.tres<>res://Cody/santos/s_clara_assis.tres<>res://Cody/santos/s_rebeca.tres<>res://Cody/santos/s_helena.tres<>res://Cody/santos/s_veronica.tres<>res://Cody/santos/santana.tres<>res://Cody/santos/s_zelia_martin.tres<>res://Cody/santos/s_margarida_antioquia.tres<>res://Cody/santos/s_joana_darc.tres<>res://Cody/santos/s_teresa_calcuta.tres<>res://Cody/santos/n_senhora_consolacao.tres<>res://Cody/santos/n_senhora_boamorte.tres<>res://Cody/santos/n_senhora_esperanca.tres<>res://Cody/santos/n_senhora_brasil.tres<>res://Cody/santos/n_senhora_auxiliadora.tres<>res://Cody/santos/n_senhora_paz.tres<>res://Cody/santos/n_senhora_desterro.tres<>res://Cody/santos/n_senhora_desatadora_nos.tres<>res://Cody/santos/n_senhora_bom_conselho.tres<>res://Cody/santos/n_senhora_cabeca.tres<>res://Cody/santos/n_senhora_escada.tres<>res://Cody/santos/n_senhora_penha.tres<>res://Cody/santos/n_senhora_vitorias.tres<>res://Cody/santos/n_senhora_copacabana.tres<>res://Cody/santos/s_branca_castela.tres<>res://Cody/santos/n_senhora_kibeho.tres<>res://Cody/santos/n_senhora_abadia.tres<>res://Cody/santos/n_senhora_amparo.tres<>res://Cody/santos/s_agueda.tres<>res://Cody/santos/n_senhora_sorriso.tres<>res://Cody/santos/s_paulina_coracao_agonizante_jesus.tres<>res://Cody/santos/n_senhora_nazare.tres<>res://Cody/santos/n_senhora_o.tres<>res://Cody/santos/s_bernadette.tres<>res://Cody/santos/n_senhora_akita.tres<>res://Cody/santos/n_senhora_caravaggio.tres
+santos_brasil.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Data_base.gd<>res://Cody/santos/s_galvao.tres<>res://Cody/santos/s_dulce_pobres.tres<>res://Cody/santos/s_jose_anchieta.tres<>res://Cody/santos/m_cunhau_uruacu.tres<>res://Cody/santos/s_roque_s_afonso_s_castilho.tres<>res://Cody/santos/s_paulina_coracao_agonizante_jesus.tres
+Santos_homens.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Data_base.gd<>res://Cody/santos/s_miguel_arcanjo.tres<>res://Cody/santos/s_francisco_sales.tres<>res://Cody/santos/s_jose_cupertino.tres<>res://Cody/santos/s_padre_pio.tres<>res://Cody/santos/s_gabriel_nossa_senhora_dores.tres<>res://Cody/santos/s_afonso_maria_ligorio.tres<>res://Cody/santos/s_jose_sanchez_del_rio.tres<>res://Cody/santos/s_maximiliano_maria_kolbe.tres<>res://Cody/santos/s_josemaria_escriva.tres<>res://Cody/santos/s_agostinho_hipona.tres<>res://Cody/santos/s_joao_paulo_II.tres<>res://Cody/santos/s_benedito.tres<>res://Cody/santos/s_antonio.tres<>res://Cody/santos/s_sebastiao.tres<>res://Cody/santos/s_jorge.tres<>res://Cody/santos/s_expedito.tres<>res://Cody/santos/s_francisco_assis.tres<>res://Cody/santos/s_jose.tres<>res://Cody/santos/s_domingos_savio.tres<>res://Cody/santos/s_judas_tadeu.tres<>res://Cody/santos/s_tarcisio.tres<>res://Cody/santos/s_cosme_damiao.tres<>res://Cody/santos/s_jeronimo.tres<>res://Cody/santos/s_cristovao.tres<>res://Cody/santos/s_bento.tres<>res://Cody/santos/s_francisco_marto.tres<>res://Cody/santos/s_dom_bosco.tres<>res://Cody/santos/s_bras.tres<>res://Cody/santos/s_galvao.tres<>res://Cody/santos/s_andre.tres<>res://Cody/santos/s_joao_XXIII.tres<>res://Cody/santos/s_barnabe.tres<>res://Cody/santos/s_tiago_menor.tres<>res://Cody/santos/s_joao_evangelista.tres<>res://Cody/santos/s_onofre.tres<>res://Cody/santos/s_martinho_lima.tres<>res://Cody/santos/s_mateus.tres<>res://Cody/santos/s_bartolomeu.tres<>res://Cody/santos/s_simao.tres<>res://Cody/santos/s_pedro.tres<>res://Cody/santos/s_tiago_maior.tres<>res://Cody/santos/s_filipe.tres<>res://Cody/santos/s_paulo.tres<>res://Cody/santos/s_matias.tres<>res://Cody/santos/s_tome.tres<>res://Cody/santos/s_lazaro.tres<>res://Cody/santos/s_raimundo_nonato.tres<>res://Cody/santos/s_rafael_arcanjo.tres<>res://Cody/santos/s_paulo_VI.tres<>res://Cody/santos/s_anjos_guarda.tres<>res://Cody/santos/s_longuinho.tres<>res://Cody/santos/s_tomas_more.tres<>res://Cody/santos/s_tomas_aquino.tres<>res://Cody/santos/s_luis_martin.tres<>res://Cody/santos/s_domingos_gusmao.tres<>res://Cody/santos/s_pio_X.tres<>res://Cody/santos/s_januario.tres<>res://Cody/santos/s_joao_batista.tres<>res://Cody/santos/s_gabriel_arcanjo.tres<>res://Cody/santos/s_inacio_loyola.tres<>res://Cody/santos/s_joao_cruz.tres<>res://Cody/santos/s_lourenco.tres<>res://Cody/santos/s_joaquim.tres<>res://Cody/santos/s_marcos.tres<>res://Cody/santos/s_lucas.tres<>res://Cody/santos/s_jose_anchieta.tres<>res://Cody/santos/m_cunhau_uruacu.tres<>res://Cody/santos/s_bruno.tres<>res://Cody/santos/s_luis.tres<>res://Cody/santos/s_heriberto.tres<>res://Cody/santos/s_isidoro.tres<>res://Cody/santos/s_policarpo.tres<>res://Cody/santos/s_davi.tres<>res://Cody/santos/s_casimiro.tres<>res://Cody/santos/s_ambrosio.tres<>res://Cody/santos/s_ireneu_lyon.tres<>res://Cody/santos/s_roque_s_afonso_s_castilho.tres
+titulos_marianos.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Data_base.gd<>res://Cody/santos/n_senhora_boamorte.tres<>res://Cody/santos/n_senhora_consolacao.tres<>res://Cody/santos/n_senhora_bom_conselho.tres<>res://Cody/santos/n_senhora_desterro.tres<>res://Cody/santos/n_senhora_desatadora_nos.tres<>res://Cody/santos/n_senhora_escada.tres<>res://Cody/santos/n_senhora_esperanca.tres<>res://Cody/santos/n_senhora_brasil.tres<>res://Cody/santos/n_senhora_cabeca.tres<>res://Cody/santos/n_senhora_auxiliadora.tres<>res://Cody/santos/n_senhora_paz.tres<>res://Cody/santos/n_senhora_vitorias.tres<>res://Cody/santos/n_senhora_nazare.tres<>res://Cody/santos/n_senhora_penha.tres<>res://Cody/santos/n_senhora_sorriso.tres<>res://Cody/santos/n_senhora_o.tres<>res://Cody/santos/n_senhora_copacabana.tres<>res://Cody/santos/n_senhora_akita.tres<>res://Cody/santos/n_senhora_caravaggio.tres<>res://Cody/santos/n_senhora_kibeho.tres<>res://Cody/santos/n_senhora_abadia.tres<>res://Cody/santos/n_senhora_amparo.tres<>res://Cody/santos/n_senhora_fatima .tres<>res://Cody/santos/n_senhora_gracas.tres<>res://Cody/santos/n_senhora_dores.tres<>res://Cody/santos/n_senhora_carmo.tres<>res://Cody/santos/n_senhora_salette.tres<>res://Cody/santos/n_senhora_aparecida.tres<>res://Cody/santos/n_senhora_lourdes.tres<>res://Cody/santos/n_senhora_rosa_mistica.tres<>res://Cody/santos/n_senhora_perpetuo_socorro.tres<>res://Cody/santos/n_senhora_guadalupe.tres<>res://Cody/santos/n_senhora_conceicao.tres
+::res://Cody/santos/::1672985251
+icon_santo.png::CompressedTexture2D::6092502010116467690::1649941757::1680985605::1::::<><>::
+m_cunhau_uruacu.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (103).png
+n_senhora_abadia.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (112).png
+n_senhora_akita.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (110).png
+n_senhora_amparo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (113).png
+n_senhora_aparecida.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (35).png
+n_senhora_auxiliadora.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (114).png
+n_senhora_boamorte.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (115).png
+n_senhora_bom_conselho.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (116).png
+n_senhora_brasil.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (117).png
+n_senhora_cabeca.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (118).png
+n_senhora_caravaggio.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (108).png
+n_senhora_carmo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (41).png
+n_senhora_conceicao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (36).png
+n_senhora_consolacao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (119).png
+n_senhora_copacabana.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (107).png
+n_senhora_desatadora_nos.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (120).png
+n_senhora_desterro.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (121).png
+n_senhora_dores.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (34).png
+n_senhora_escada.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (122).png
+n_senhora_esperanca.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (123).png
+n_senhora_fatima .tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (32).png
+n_senhora_gracas.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (33).png
+n_senhora_guadalupe.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (39).png
+n_senhora_kibeho.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (111).png
+n_senhora_lourdes.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (37).png
+n_senhora_nazare.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (124).png
+n_senhora_o.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (109).png
+n_senhora_paz.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (138).png
+n_senhora_penha.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (125).png
+n_senhora_perpetuo_socorro.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (42).png
+n_senhora_rosa_mistica.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (40).png
+n_senhora_salette.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (38).png
+n_senhora_sorriso.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (126).png
+n_senhora_vitorias.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (127).png
+santana.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (84).png
+s_afonso_maria_ligorio.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (16).png
+s_agostinho_hipona.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (17).png
+s_agueda.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (128).png
+s_ambrosio.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (129).png
+s_andre.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (61).png
+s_anjos_guarda.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (82).png
+s_antonio.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (24).png
+s_bakhita.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (14).png
+s_barnabe.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (78).png
+s_bartolomeu.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (69).png
+s_beatriz.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (63).png
+s_benedito.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (19).png
+s_bento.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (47).png
+s_bernadette.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (131).png
+s_branca_castela.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (133).png
+s_bras.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (53).png
+s_bruno.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (135).png
+s_casimiro.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (136).png
+s_catarina_sena.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (13).png
+s_cecilia.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (29).png
+s_clara_assis.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (45).png
+s_cosme_damiao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (54).png
+s_cristovao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (46).png
+s_davi.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (137).png
+s_domingos_gusmao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (94).png
+s_domingos_savio.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (43).png
+s_dom_bosco.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (51).png
+s_dulce_pobres.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (20).png
+s_edith_stein.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (21).png
+s_escolastica.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (48).png
+s_expedito.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (22).png
+s_filipe.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (67).png
+s_francisco_assis.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (23).png
+s_francisco_marto.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (49).png
+s_francisco_sales.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (3).png
+s_gabriel_arcanjo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (81).png
+s_gabriel_nossa_senhora_dores.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (8).png
+s_galvao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (52).png
+s_gemma_galgani.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (28).png
+s_gianna_beretta_molla.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (5).png
+s_helena.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (64).png
+s_heriberto.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (139).png
+s_inacio_loyola.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (99).png
+s_ireneu_lyon.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (130).png
+s_isidoro.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (140).png
+s_jacinta_marto.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (50).png
+s_januario.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (96).png
+s_jeronimo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (55).png
+s_joana_darc.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (93).png
+s_joao_batista.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (97).png
+s_joao_cruz.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (98).png
+s_joao_evangelista.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (74).png
+s_joao_paulo_II.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (18).png
+s_joao_XXIII.tres::Resource::-1::1680985336::0::1::::<><>::res://Sprites/Santos/0 (73).png<>res://Cody/Santos_recurso.gd
+s_joaquim.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (85).png
+s_jorge.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (26).png
+s_jose.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (30).png
+s_josemaria_escriva.tres::Resource::-1::1680985336::0::1::::<><>::res://Sprites/Santos/0 (12).png<>res://Cody/Santos_recurso.gd
+s_jose_anchieta.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (104).png
+s_jose_cupertino.tres::Resource::-1::1680985336::0::1::::<><>::res://Sprites/Santos/0 (2).png<>res://Cody/Santos_recurso.gd
+s_jose_sanchez_del_rio.tres::Resource::-1::1680985336::0::1::::<><>::res://Sprites/Santos/0 (9).png<>res://Cody/Santos_recurso.gd
+s_judas_tadeu.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (56).png
+s_lazaro.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (57).png
+s_longuinho.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (91).png
+s_lourenco.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (90).png
+s_lucas.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (101).png
+s_luis.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (134).png
+s_luis_martin.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (88).png
+s_luzia.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (31).png
+s_marcos.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (102).png
+s_margarida_antioquia.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (95).png
+s_maria_madalena.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (79).png
+s_martinho_lima.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (62).png
+s_mateus.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (68).png
+s_matias.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (76).png
+s_maximiliano_maria_kolbe.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (11).png
+s_miguel_arcanjo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (1).png
+s_monica.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (15).png
+s_onofre.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (77).png
+s_padre_pio.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (4).png
+s_paulina_coracao_agonizante_jesus.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (105).png
+s_paulo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (75).png
+s_paulo_VI.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (86).png
+s_pedro.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (65).png
+s_perpetua_felicidade.tres::Resource::-1::1680985336::0::1::::<><>::res://Sprites/Santos/0 (27).png<>res://Cody/Santos_recurso.gd
+s_pio_X.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (87).png
+s_policarpo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (132).png
+s_rafael_arcanjo.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (80).png
+s_raimundo_nonato.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (58).png
+s_rebeca.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (59).png
+s_rita_cassia.tres::Resource::-1::1680985336::0::1::::<><>::res://Sprites/Santos/0 (10).png<>res://Cody/Santos_recurso.gd
+s_roque_s_afonso_s_castilho.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (106).png
+s_sebastiao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (25).png
+s_simao.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (72).png
+s_tarcisio.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (44).png
+s_teresa_calcuta.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (100).png
+s_teresa_davila.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (7).png
+s_teresinha_menino_jesus.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (6).png
+s_tiago_maior.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (70).png
+s_tiago_menor.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (71).png
+s_tomas_aquino.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (92).png
+s_tomas_more.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (83).png
+s_tome.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (66).png
+s_veronica.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (60).png
+s_zelia_martin.tres::Resource::-1::1680985336::0::1::::<><>::res://Cody/Santos_recurso.gd<>res://Sprites/Santos/0 (89).png
+::res://Fontes/::1672985247
+NA25.tres::FontFile::-1::1680985335::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf
+NA50.tres::FontFile::-1::1680985335::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf
+NA70.tres::FontFile::-1::1680985335::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf
+NA80.tres::FontFile::-1::1680985335::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf
+NA300.tres::FontFile::-1::1680985335::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf
+NA900.tres::FontFile::-1::1680985335::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf
+NA.tres::FontFile::-1::1680985335::0::1::::<><>::res://Fontes/NEXT ART_Heavy.otf
+NEXT ART_Bold.otf::FontFile::9199323178880165432::1597016500::1680985592::1::::<><>::
+NEXT ART_Heavy.otf::FontFile::8721297088791871447::1597016500::1680985592::1::::<><>::
+NEXT ART_Light.otf::FontFile::3218525615518792852::1597016500::1680985592::1::::<><>::
+NEXT ART_Regular.otf::FontFile::2092266874568605451::1597016500::1680985592::1::::<><>::
+::res://Fontes/Comic_Neue/::1672985247
+ComicNeue-Bold.ttf::FontFile::4280362185318596605::1583982000::1680985592::1::::<><>::
+ComicNeue-BoldItalic.ttf::FontFile::1109584920200776891::1583982000::1680985592::1::::<><>::
+ComicNeue-Italic.ttf::FontFile::796667479588954190::1583982000::1680985592::1::::<><>::
+ComicNeue-Light.ttf::FontFile::5878068670749719265::1583982000::1680985592::1::::<><>::
+ComicNeue-LightItalic.ttf::FontFile::4833822730722354600::1583982000::1680985592::1::::<><>::
+ComicNeue-Regular.ttf::FontFile::5895497691067725955::1583982000::1680985592::1::::<><>::
+::res://Scenes/::1675267740
+borda.tscn::PackedScene::-1::1680985334::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf<>res://Fontes/Comic_Neue/ComicNeue-Regular.ttf<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_off.png<>res://Sprites/Menu/BT_on.png
+Button.tscn::PackedScene::-1::1680985334::0::1::::<><>::res://Themes/Botões.tres<>res://Cody/Button.gd
+Button_tex.tscn::PackedScene::-1::1680985334::0::1::::<><>::res://Cody/Button_tex.gd
+categoria.tscn::PackedScene::-1::1680985334::0::1::::<><>::res://Themes/Botões.tres<>res://Cody/categoria.gd<>res://Fontes/Comic_Neue/ComicNeue-Bold.ttf
+Conol.tscn::PackedScene::-1::1680985334::0::1::::<><>::res://Scenes/Button_tex.tscn<>res://Fontes/Comic_Neue/ComicNeue-Bold.ttf<>res://Scenes/Movmento.tscn<>res://Cody/Conol.gd<>res://Fontes/Comic_Neue/ComicNeue-Regular.ttf<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_off.png<>res://Sprites/Menu/BT_on.png<>res://Sprites/vol_pres.png<>res://Sprites/vol_n.png
+Control.tscn::PackedScene::-1::1680985334::0::1::::<><>::res://Scenes/Movmento.tscn<>res://Sprites/Info_n.png<>res://Scenes/Button_tex.tscn<>res://Sprites/Info_press.png<>res://Cody/Control.gd<>res://Sprites/Menu/Logo_ani.png<>res://Cody/Config.gd<>res://Sprites/Con_n.png<>res://Sprites/Con_pres.png<>res://Sprites/Fecha_n.png<>res://Sprites/Fecha_press.png<>res://Themes/Botões.tres<>res://Fontes/Comic_Neue/ComicNeue-Bold.ttf<>res://Scenes/Button.tscn
+GameAudio.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Sons/Musica menu.wav<>res://Sons/Clic.wav<>res://Sons/Certo.wav<>res://Sons/Errado.wav<>res://Sons/alerta.wav<>res://Sons/som_do_botao.wav<>res://Cody/GameAudio.gd
+Jogo.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Sprites/Menu/Backgraund.png<>res://Fontes/Comic_Neue/ComicNeue-Bold.ttf<>res://Sprites/Santos/0 (1).png<>res://Cody/Jogo.gd<>res://Scenes/Button.tscn<>res://Fontes/Comic_Neue/ComicNeue-Regular.ttf<>res://Cody/Resultado.gd<>res://Fontes/NA50.tres<>res://Sprites/vol_pres.png<>res://Themes/Botões.tres<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_off.png<>res://Sprites/Menu/BT_on.png<>res://Sprites/vol_n.png<>res://Scenes/Button_tex.tscn
+Lista.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Sprites/Santos/0 (1).png<>res://Themes/Botões.tres<>res://Cody/Lista.gd<>res://Fontes/Comic_Neue/ComicNeue-Regular.ttf<>res://Fontes/Comic_Neue/ComicNeue-Bold.ttf<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_off.png<>res://Sprites/Menu/BT_on.png
+Load.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Cody/Load.gd<>res://Themes/Botões.tres
+LoadingBar.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Fontes/NA50.tres<>res://Themes/LoadingBar.tres
+Movmento.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Sprites/Menu/menu_mov.png<>res://Cody/Movmento.gd<>res://Sprites/Menu/menu_mov2.png
+Open.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://open.ogv<>res://Cody/Open.gd
+selecao.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Scenes/categoria.tscn<>res://Scenes/Button_tex.tscn<>res://Cody/Banco de dados/geral_todos.tres<>res://Cody/Banco de dados/titulos_marianos.tres<>res://Cody/selecao.gd<>res://Themes/BTM-P.tres<>res://Themes/BTM.tres<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_on.png<>res://Sprites/Menu/BT_des_on.png<>res://Sprites/Menu/BT_off.png<>res://Fontes/NA80.tres<>res://Scenes/Movmento.tscn<>res://Sprites/vol_n.png<>res://Sprites/vol_pres.png<>res://Cody/Banco de dados/Santos_homens.tres<>res://Cody/Banco de dados/santas_mulheres.tres
+Sobre.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Scenes/Button_tex.tscn<>res://Sprites/vol_pres.png<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_on.png<>res://Sprites/vol_n.png<>res://Cody/Sobre.gd<>res://Fontes/Comic_Neue/ComicNeue-Regular.ttf<>res://Fontes/Comic_Neue/ComicNeue-Bold.ttf<>res://Themes/Botões.tres<>res://Sprites/Menu/BT_off.png<>res://Scenes/Movmento.tscn
+todos_santos.tscn::PackedScene::-1::1680985335::0::1::::<><>::res://Cody/todos_santos.gd<>res://Scenes/Button_tex.tscn<>res://Cody/Banco de dados/geral_todos.tres<>res://Sprites/vol_n.png<>res://Sprites/vol_pres.png<>res://Themes/BTM-P.tres<>res://Themes/BTM.tres<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_on.png<>res://Sprites/Menu/BT_des_on.png<>res://Sprites/Menu/BT_off.png<>res://Fontes/NA80.tres<>res://Scenes/Movmento.tscn<>res://Themes/Botões.tres
+::res://Sons/::1672985251
+alerta.wav::AudioStreamWAV::1466621802075508143::1621795646::1680985614::1::::<><>::
+Certo.wav::AudioStreamWAV::7589900193611521339::1621188327::1680985614::1::::<><>::
+Clic.wav::AudioStreamWAV::8095255445242019556::1621601885::1680985613::1::::<><>::
+Errado.wav::AudioStreamWAV::7412041908071782907::1621189079::1680985613::1::::<><>::
+Musica menu.wav::AudioStreamWAV::1436389370490074295::1620870626::1680985614::1::::<><>::
+som_do_botao.wav::AudioStreamWAV::248319558150270019::1652271932::1680985613::1::::<><>::
+::res://Sprites/::1672985247
+Con_n.png::CompressedTexture2D::5390049609273833543::1625496716::1680985598::1::::<><>::
+Con_pres.png::CompressedTexture2D::3858570456609362643::1625496692::1680985598::1::::<><>::
+Fecha_n.png::CompressedTexture2D::167367988922796533::1625533153::1680985598::1::::<><>::
+Fecha_press.png::CompressedTexture2D::5308182606811471559::1625533245::1680985598::1::::<><>::
+Info_n.png::CompressedTexture2D::1829069602751597160::1652226149::1680985598::1::::<><>::
+Info_press.png::CompressedTexture2D::3059184692020926893::1652226274::1680985598::1::::<><>::
+Som_off.png::CompressedTexture2D::6103640524345668185::1621435256::1680985598::1::::<><>::
+Som_on.png::CompressedTexture2D::7660959013547133722::1621435156::1680985598::1::::<><>::
+Song_off.png::CompressedTexture2D::1521393247969270826::1621435126::1680985598::1::::<><>::
+Song_on.png::CompressedTexture2D::8240966288143157051::1621435028::1680985598::1::::<><>::
+vol_n.png::CompressedTexture2D::4131056714121736850::1650231861::1680985598::1::::<><>::
+vol_pres.png::CompressedTexture2D::1072673972927984137::1650231880::1680985598::1::::<><>::
+::res://Sprites/Menu/::1672985245
+Backgraund - Menu.png::CompressedTexture2D::414579501599667679::1620219064::1680985608::1::::<><>::
+Backgraund.png::CompressedTexture2D::4522690201191299045::1652227892::1680985606::1::::<><>::
+BT_des.png::CompressedTexture2D::4044675396399099044::1644714885::1680985605::1::::<><>::
+BT_des_on.png::CompressedTexture2D::8259077389459042981::1644714895::1680985605::1::::<><>::
+BT_off.png::CompressedTexture2D::4443776599367316134::1650138873::1680985605::1::::<><>::
+BT_on.png::CompressedTexture2D::8836097226268935791::1650138884::1680985605::1::::<><>::
+Cong.png::CompressedTexture2D::3617571681996745962::1621429182::1680985605::1::::<><>::
+HS STUDIO - Logo.png::CompressedTexture2D::4051141433003268951::1619906171::1680985605::1::::<><>::
+Logo.png::CompressedTexture2D::5953546142370333987::1620219643::1680985607::1::::<><>::
+Logo_ani.png::CompressedTexture2D::7209725852196493070::1621715206::1680985611::1::::<><>::
+menu_mov2.png::CompressedTexture2D::132440513754455555::1650247177::1680985606::1::::<><>::
+menu_mov.png::CompressedTexture2D::558681332197035197::1650247167::1680985606::1::::<><>::
+::res://Sprites/Santos/::1672985247
+0 (1).png::CompressedTexture2D::8606746360785601795::1622737663::1680985607::1::::<><>::
+0 (2).png::CompressedTexture2D::5705452975301567811::1622737663::1680985607::1::::<><>::
+0 (3).png::CompressedTexture2D::8628447600253863695::1622737663::1680985608::1::::<><>::
+0 (4).png::CompressedTexture2D::3680445184779693526::1622737663::1680985608::1::::<><>::
+0 (5).png::CompressedTexture2D::949037179223757158::1622737664::1680985608::1::::<><>::
+0 (6).png::CompressedTexture2D::3942629477003859857::1622737664::1680985608::1::::<><>::
+0 (7).png::CompressedTexture2D::5035046689472412092::1622737664::1680985608::1::::<><>::
+0 (8).png::CompressedTexture2D::2624748042314941156::1622737664::1680985602::1::::<><>::
+0 (9).png::CompressedTexture2D::1204731371754138861::1622737664::1680985602::1::::<><>::
+0 (10).png::CompressedTexture2D::3099912385867091855::1622737664::1680985603::1::::<><>::
+0 (11).png::CompressedTexture2D::8415095353428702840::1622737664::1680985603::1::::<><>::
+0 (12).png::CompressedTexture2D::6343927153753837393::1622737664::1680985603::1::::<><>::
+0 (13).png::CompressedTexture2D::863576849404734881::1622737664::1680985604::1::::<><>::
+0 (14).png::CompressedTexture2D::2851100761127828036::1622737664::1680985604::1::::<><>::
+0 (15).png::CompressedTexture2D::3845551558788854932::1630086175::1680985604::1::::<><>::
+0 (16).png::CompressedTexture2D::5618019460832745907::1622737665::1680985604::1::::<><>::
+0 (17).png::CompressedTexture2D::6013795166625299153::1630086275::1680985604::1::::<><>::
+0 (18).png::CompressedTexture2D::6753497006583233626::1622737665::1680985604::1::::<><>::
+0 (19).png::CompressedTexture2D::4236199624241481488::1622737665::1680985604::1::::<><>::
+0 (20).png::CompressedTexture2D::53323023599022844::1622737665::1680985604::1::::<><>::
+0 (21).png::CompressedTexture2D::2966937468796153706::1622737665::1680985604::1::::<><>::
+0 (22).png::CompressedTexture2D::5811696437028648528::1622737665::1680985605::1::::<><>::
+0 (23).png::CompressedTexture2D::4888896439655481875::1622737665::1680985605::1::::<><>::
+0 (24).png::CompressedTexture2D::6674863615458839420::1622737665::1680985605::1::::<><>::
+0 (25).png::CompressedTexture2D::5911987325890037713::1622737665::1680985605::1::::<><>::
+0 (26).png::CompressedTexture2D::6573495648582701601::1622737665::1680985605::1::::<><>::
+0 (27).png::CompressedTexture2D::3949873254734792997::1622737665::1680985605::1::::<><>::
+0 (28).png::CompressedTexture2D::1868378423426555788::1622737665::1680985605::1::::<><>::
+0 (29).png::CompressedTexture2D::931047617352574119::1622737666::1680985611::1::::<><>::
+0 (30).png::CompressedTexture2D::196300876069141435::1622737666::1680985611::1::::<><>::
+0 (31).png::CompressedTexture2D::2008586507618273906::1622737666::1680985612::1::::<><>::
+0 (32).png::CompressedTexture2D::9071464135442358211::1622737666::1680985612::1::::<><>::
+0 (33).png::CompressedTexture2D::5042659149017038882::1622737666::1680985612::1::::<><>::
+0 (34).png::CompressedTexture2D::8699851256789335842::1622737666::1680985612::1::::<><>::
+0 (35).png::CompressedTexture2D::733060732169353127::1622737666::1680985612::1::::<><>::
+0 (36).png::CompressedTexture2D::7865919341767083441::1622737666::1680985612::1::::<><>::
+0 (37).png::CompressedTexture2D::7766652597544499880::1622737666::1680985612::1::::<><>::
+0 (38).png::CompressedTexture2D::2821972279501786256::1622737666::1680985612::1::::<><>::
+0 (39).png::CompressedTexture2D::3065887556007428643::1622737666::1680985613::1::::<><>::
+0 (40).png::CompressedTexture2D::5417218229524004703::1622737666::1680985613::1::::<><>::
+0 (41).png::CompressedTexture2D::7179973999074688839::1622737667::1680985613::1::::<><>::
+0 (42).png::CompressedTexture2D::6039232845797735330::1622737667::1680985613::1::::<><>::
+0 (43).png::CompressedTexture2D::5418337004804714693::1622737667::1680985613::1::::<><>::
+0 (44).png::CompressedTexture2D::240936783476775342::1622737667::1680985613::1::::<><>::
+0 (45).png::CompressedTexture2D::2778588951877558592::1622737667::1680985613::1::::<><>::
+0 (46).png::CompressedTexture2D::3199714115950589526::1622737667::1680985613::1::::<><>::
+0 (47).png::CompressedTexture2D::2605845290026570510::1622737667::1680985613::1::::<><>::
+0 (48).png::CompressedTexture2D::3472985675245724532::1622737667::1680985612::1::::<><>::
+0 (49).png::CompressedTexture2D::1411732761679138871::1622737667::1680985612::1::::<><>::
+0 (50).png::CompressedTexture2D::4338958758199252968::1622737667::1680985608::1::::<><>::
+0 (51).png::CompressedTexture2D::8197270844063873046::1623009184::1680985608::1::::<><>::
+0 (52).png::CompressedTexture2D::3280321011278076040::1623009184::1680985609::1::::<><>::
+0 (53).png::CompressedTexture2D::3441475117916512428::1623009184::1680985609::1::::<><>::
+0 (54).png::CompressedTexture2D::9189133734902812553::1623009184::1680985609::1::::<><>::
+0 (55).png::CompressedTexture2D::3323809558363106406::1623009184::1680985609::1::::<><>::
+0 (56).png::CompressedTexture2D::1036560969569159935::1623009184::1680985609::1::::<><>::
+0 (57).png::CompressedTexture2D::47908758179192558::1623009184::1680985609::1::::<><>::
+0 (58).png::CompressedTexture2D::2773873255304968627::1623009185::1680985610::1::::<><>::
+0 (59).png::CompressedTexture2D::1088928853164990623::1623009185::1680985610::1::::<><>::
+0 (60).png::CompressedTexture2D::6621277361540334386::1623009185::1680985610::1::::<><>::
+0 (61).png::CompressedTexture2D::7516095586989924890::1623009185::1680985610::1::::<><>::
+0 (62).png::CompressedTexture2D::8677670449570214618::1623009185::1680985610::1::::<><>::
+0 (63).png::CompressedTexture2D::902864892339357873::1623009185::1680985610::1::::<><>::
+0 (64).png::CompressedTexture2D::5799007623060592923::1623009185::1680985610::1::::<><>::
+0 (65).png::CompressedTexture2D::4066737807203727137::1623009185::1680985611::1::::<><>::
+0 (66).png::CompressedTexture2D::5823518285353015782::1623009185::1680985611::1::::<><>::
+0 (67).png::CompressedTexture2D::380920597407554121::1623009185::1680985611::1::::<><>::
+0 (68).png::CompressedTexture2D::8657324840092940777::1623009185::1680985611::1::::<><>::
+0 (69).png::CompressedTexture2D::3532586914708630233::1623009186::1680985611::1::::<><>::
+0 (70).png::CompressedTexture2D::2805779370863247883::1623009186::1680985611::1::::<><>::
+0 (71).png::CompressedTexture2D::9045286528118258605::1623009186::1680985596::1::::<><>::
+0 (72).png::CompressedTexture2D::9171510024085007049::1623009186::1680985596::1::::<><>::
+0 (73).png::CompressedTexture2D::6971462038991623168::1623009186::1680985596::1::::<><>::
+0 (74).png::CompressedTexture2D::4122753194087894876::1623009186::1680985596::1::::<><>::
+0 (75).png::CompressedTexture2D::3377506419862834313::1623009186::1680985596::1::::<><>::
+0 (76).png::CompressedTexture2D::6512907720137340410::1623009186::1680985596::1::::<><>::
+0 (77).png::CompressedTexture2D::7370353581931065284::1623009186::1680985596::1::::<><>::
+0 (78).png::CompressedTexture2D::1248050217234911242::1623009186::1680985596::1::::<><>::
+0 (79).png::CompressedTexture2D::5170126850255478355::1623009186::1680985596::1::::<><>::
+0 (80).png::CompressedTexture2D::3607599181886592226::1623009187::1680985596::1::::<><>::
+0 (81).png::CompressedTexture2D::1813569164710105866::1623009187::1680985597::1::::<><>::
+0 (82).png::CompressedTexture2D::6841408959163432386::1623009187::1680985597::1::::<><>::
+0 (83).png::CompressedTexture2D::5954205453281657413::1623009187::1680985597::1::::<><>::
+0 (84).png::CompressedTexture2D::3720107913984111249::1623009187::1680985597::1::::<><>::
+0 (85).png::CompressedTexture2D::1432701829480897207::1623009187::1680985597::1::::<><>::
+0 (86).png::CompressedTexture2D::1469256239090354912::1623009187::1680985597::1::::<><>::
+0 (87).png::CompressedTexture2D::1203972048650256455::1623009187::1680985597::1::::<><>::
+0 (88).png::CompressedTexture2D::544232358922259298::1623009187::1680985598::1::::<><>::
+0 (89).png::CompressedTexture2D::7503609719338495430::1623009187::1680985598::1::::<><>::
+0 (90).png::CompressedTexture2D::5595931946341972380::1623009187::1680985598::1::::<><>::
+0 (91).png::CompressedTexture2D::2624566688040236266::1623009187::1680985598::1::::<><>::
+0 (92).png::CompressedTexture2D::9121397580417281643::1623009188::1680985598::1::::<><>::
+0 (93).png::CompressedTexture2D::714087546235822600::1623009188::1680985594::1::::<><>::
+0 (94).png::CompressedTexture2D::9181695743947529810::1623009188::1680985594::1::::<><>::
+0 (95).png::CompressedTexture2D::6324238369450163370::1623009188::1680985594::1::::<><>::
+0 (96).png::CompressedTexture2D::1037721827849840139::1623009188::1680985594::1::::<><>::
+0 (97).png::CompressedTexture2D::1524029345109854096::1623009188::1680985594::1::::<><>::
+0 (98).png::CompressedTexture2D::9021685695209583814::1623009188::1680985594::1::::<><>::
+0 (99).png::CompressedTexture2D::8733551766287897280::1623009188::1680985594::1::::<><>::
+0 (100).png::CompressedTexture2D::3573264179527432591::1623009188::1680985593::1::::<><>::
+0 (101).png::CompressedTexture2D::3698261431763268906::1623009271::1680985593::1::::<><>::
+0 (102).png::CompressedTexture2D::5592032354948235854::1623009270::1680985593::1::::<><>::
+0 (103).png::CompressedTexture2D::1290832098797500536::1652446992::1680985593::1::::<><>::
+0 (104).png::CompressedTexture2D::5126406211975988623::1652447054::1680985594::1::::<><>::
+0 (105).png::CompressedTexture2D::450102485801998444::1652447094::1680985595::1::::<><>::
+0 (106).png::CompressedTexture2D::508567305873759545::1652447135::1680985595::1::::<><>::
+0 (107).png::CompressedTexture2D::4624463291864122505::1652447198::1680985595::1::::<><>::
+0 (108).png::CompressedTexture2D::3486119583732661089::1652447248::1680985595::1::::<><>::
+0 (109).png::CompressedTexture2D::2094331051001856693::1652447289::1680985595::1::::<><>::
+0 (110).png::CompressedTexture2D::2296209258010743387::1652447348::1680985595::1::::<><>::
+0 (111).png::CompressedTexture2D::33173646752139157::1652447382::1680985595::1::::<><>::
+0 (112).png::CompressedTexture2D::2715611255407899278::1652447424::1680985595::1::::<><>::
+0 (113).png::CompressedTexture2D::4086723700748735450::1652447464::1680985595::1::::<><>::
+0 (114).png::CompressedTexture2D::4629938579013765996::1652447514::1680985595::1::::<><>::
+0 (115).png::CompressedTexture2D::5129185631065792531::1652447554::1680985599::1::::<><>::
+0 (116).png::CompressedTexture2D::8121721193592315650::1652447593::1680985599::1::::<><>::
+0 (117).png::CompressedTexture2D::2827680803545243702::1652447651::1680985599::1::::<><>::
+0 (118).png::CompressedTexture2D::8369764675904444017::1652447702::1680985599::1::::<><>::
+0 (119).png::CompressedTexture2D::4155414999311312781::1652447755::1680985600::1::::<><>::
+0 (120).png::CompressedTexture2D::2851263832986091874::1652447793::1680985600::1::::<><>::
+0 (121).png::CompressedTexture2D::7801070904381839888::1652447833::1680985600::1::::<><>::
+0 (122).png::CompressedTexture2D::4271107062842377479::1652447875::1680985600::1::::<><>::
+0 (123).png::CompressedTexture2D::1189260577928868018::1652447915::1680985600::1::::<><>::
+0 (124).png::CompressedTexture2D::2792876474464804815::1652447945::1680985600::1::::<><>::
+0 (125).png::CompressedTexture2D::4981862081775436755::1652448030::1680985600::1::::<><>::
+0 (126).png::CompressedTexture2D::3176686662398971009::1652448078::1680985600::1::::<><>::
+0 (127).png::CompressedTexture2D::253902011388341376::1652448111::1680985601::1::::<><>::
+0 (128).png::CompressedTexture2D::1512856084956042264::1652448191::1680985601::1::::<><>::
+0 (129).png::CompressedTexture2D::47133348976931816::1652448220::1680985601::1::::<><>::
+0 (130).png::CompressedTexture2D::6603362550573776533::1652448261::1680985601::1::::<><>::
+0 (131).png::CompressedTexture2D::149686407609983989::1652448288::1680985601::1::::<><>::
+0 (132).png::CompressedTexture2D::5199531467329089218::1652448337::1680985601::1::::<><>::
+0 (133).png::CompressedTexture2D::8477117046414192744::1652449251::1680985601::1::::<><>::
+0 (134).png::CompressedTexture2D::7779221283952633817::1652449312::1680985601::1::::<><>::
+0 (135).png::CompressedTexture2D::6961191688601633497::1652449375::1680985601::1::::<><>::
+0 (136).png::CompressedTexture2D::2433171970174363487::1652449449::1680985601::1::::<><>::
+0 (137).png::CompressedTexture2D::9198168778064888014::1652449484::1680985602::1::::<><>::
+0 (138).png::CompressedTexture2D::6085393041619291983::1652453221::1680985598::1::::<><>::
+0 (139).png::CompressedTexture2D::4798484827849429273::1652453252::1680985598::1::::<><>::
+0 (140).png::CompressedTexture2D::2987686404066055975::1652453284::1680985598::1::::<><>::
+none.png::CompressedTexture2D::809837549840090147::1623119014::1680985599::1::::<><>::
+::res://Themes/::1675265383
+Botões.tres::Theme::-1::1680985332::0::1::::<><>::res://Fontes/Comic_Neue/ComicNeue-Bold.ttf<>res://Sprites/Menu/BT_des.png<>res://Sprites/Menu/BT_on.png<>res://Sprites/Menu/BT_off.png<>res://Fontes/Comic_Neue/ComicNeue-Regular.ttf
+BTM-P.tres::StyleBoxFlat::-1::1680985332::0::1::::<><>::
+BTM.tres::StyleBoxFlat::-1::1680985332::0::1::::<><>::
+BTV-P.tres::StyleBoxFlat::-1::1680985332::0::1::::<><>::
+BTV.tres::StyleBoxFlat::-1::1680985332::0::1::::<><>::
+LoadingBar.tres::StyleBoxFlat::-1::1680985332::0::1::::<><>::

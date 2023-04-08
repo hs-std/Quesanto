@@ -1,24 +1,24 @@
 [gd_resource type="Theme" load_steps=12 format=2]
 
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=4]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="DynamicFontData" id=5]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="FontFile" id=1]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture2D" id=2]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture2D" id=3]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture2D" id=4]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="FontFile" id=5]
 
-[sub_resource type="DynamicFont" id=4]
+[sub_resource type="FontFile" id=4]
 size = 80
 outline_size = 7
 use_filter = true
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="FontFile" id=5]
 size = 50
 outline_size = 7
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=6]
+[sub_resource type="FontFile" id=6]
 size = 50
 outline_size = 5
 outline_color = Color( 0, 0, 0, 1 )

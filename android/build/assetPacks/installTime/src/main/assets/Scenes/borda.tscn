@@ -1,10 +1,10 @@
 [gd_scene load_steps=19 format=2]
 
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="DynamicFontData" id=2]
-[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=5]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="FontFile" id=1]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="FontFile" id=2]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture2D" id=3]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture2D" id=4]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture2D" id=5]
 
 [sub_resource type="StyleBoxFlat" id=6]
 bg_color = Color( 0, 0.427451, 0.329412, 1 )
@@ -24,19 +24,19 @@ border_width_top = 7
 border_color = Color( 0, 0, 0, 1 )
 shadow_offset = Vector2( 0, 7 )
 
-[sub_resource type="DynamicFont" id=7]
+[sub_resource type="FontFile" id=7]
 size = 35
 outline_size = 5
 use_filter = true
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=8]
+[sub_resource type="FontFile" id=8]
 size = 50
 outline_size = 7
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=9]
+[sub_resource type="FontFile" id=9]
 size = 50
 outline_size = 5
 outline_color = Color( 0, 0, 0, 1 )
@@ -120,47 +120,47 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -163.5
-margin_top = -158.0
-margin_right = 163.5
-margin_bottom = -22.0
-rect_pivot_offset = Vector2( 164, 155 )
+offset_left = -163.5
+offset_top = -158.0
+offset_right = 163.5
+offset_bottom = -22.0
+pivot_offset = Vector2( 164, 155 )
 
 [node name="Panel5" type="Panel" parent="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_min_size = Vector2( 84, 84 )
-rect_pivot_offset = Vector2( 42, 0 )
-custom_styles/panel = SubResource( 6 )
+custom_minimum_size = Vector2( 84, 84 )
+pivot_offset = Vector2( 42, 0 )
+theme_override_styles/panel = SubResource( 6 )
 
 [node name="Panel3" type="Panel" parent="Control"]
-margin_right = 84.0
-margin_bottom = 84.0
-rect_min_size = Vector2( 84, 84 )
-rect_rotation = 45.0
-rect_pivot_offset = Vector2( -0.000244141, 6.10352e-05 )
-custom_styles/panel = SubResource( 4 )
+offset_right = 84.0
+offset_bottom = 84.0
+custom_minimum_size = Vector2( 84, 84 )
+rotation = 45.0
+pivot_offset = Vector2( -0.000244141, 6.10352e-05 )
+theme_override_styles/panel = SubResource( 4 )
 
 [node name="Panel4" type="Panel" parent="Control"]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -1.52588e-05
-margin_right = 84.0
-margin_bottom = 84.0
-rect_min_size = Vector2( 84, 84 )
-rect_rotation = 45.0
-custom_styles/panel = SubResource( 5 )
+offset_left = -1.52588e-05
+offset_right = 84.0
+offset_bottom = 84.0
+custom_minimum_size = Vector2( 84, 84 )
+rotation = 45.0
+theme_override_styles/panel = SubResource( 5 )
 
 [node name="Label" type="Label" parent="."]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -153.0
-margin_top = -171.0
-margin_right = 153.0
-margin_bottom = -79.0
-rect_pivot_offset = Vector2( 26, 14 )
+offset_left = -153.0
+offset_top = -171.0
+offset_right = 153.0
+offset_bottom = -79.0
+pivot_offset = Vector2( 26, 14 )
 theme = SubResource( 10 )
 text = "São José"
 align = 1
@@ -171,21 +171,21 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -1170.0
-margin_top = -100.0
-margin_right = 1170.0
-margin_bottom = -16.0
-custom_styles/panel = SubResource( 11 )
+offset_left = -1170.0
+offset_top = -100.0
+offset_right = 1170.0
+offset_bottom = -16.0
+theme_override_styles/panel = SubResource( 11 )
 
 [node name="Cantos" type="Control" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Panel1" type="Panel" parent="Cantos"]
-margin_left = -6.0
-margin_right = 38.0
-margin_bottom = 27.0
-custom_styles/panel = SubResource( 12 )
+offset_left = -6.0
+offset_right = 38.0
+offset_bottom = 27.0
+theme_override_styles/panel = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": true
 }
@@ -193,10 +193,10 @@ __meta__ = {
 [node name="Panel2" type="Panel" parent="Cantos"]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -34.0
-margin_right = 10.0
-margin_bottom = 27.0
-custom_styles/panel = SubResource( 12 )
+offset_left = -34.0
+offset_right = 10.0
+offset_bottom = 27.0
+theme_override_styles/panel = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": true
 }
@@ -204,11 +204,11 @@ __meta__ = {
 [node name="Panel3" type="Panel" parent="Cantos"]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = -6.0
-margin_top = -25.0
-margin_right = 38.0
-margin_bottom = 2.0
-custom_styles/panel = SubResource( 12 )
+offset_left = -6.0
+offset_top = -25.0
+offset_right = 38.0
+offset_bottom = 2.0
+theme_override_styles/panel = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": true
 }
@@ -218,11 +218,11 @@ anchor_left = 1.0
 anchor_top = 1.0
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = -34.0
-margin_top = -25.0
-margin_right = 10.0
-margin_bottom = 2.0
-custom_styles/panel = SubResource( 12 )
+offset_left = -34.0
+offset_top = -25.0
+offset_right = 10.0
+offset_bottom = 2.0
+theme_override_styles/panel = SubResource( 12 )
 __meta__ = {
 "_edit_use_anchors_": true
 }
@@ -230,4 +230,4 @@ __meta__ = {
 [node name="Panel" type="Panel" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-custom_styles/panel = SubResource( 13 )
+theme_override_styles/panel = SubResource( 13 )

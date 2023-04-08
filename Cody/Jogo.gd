@@ -8,13 +8,13 @@ var h = 1
 var w = 0
 var lmte = 0  
 var m
-onready var stn = get_node("Nome")
-onready var ig = get_node("img")
-onready var dc = get_node("Dica")
-onready var certo = GameAudio.get_node("Efeitos/Certo")
-onready var errado = GameAudio.get_node("Efeitos/Errado")
-onready var alerta = GameAudio.get_node("Efeitos/Alerta")
-onready var timer = get_node("cronometro")
+@onready var stn = get_node("Nome")
+@onready var ig = get_node("img")
+@onready var dc = get_node("Dica")
+@onready var certo = GameAudio.get_node("Efeitos/Certo")
+@onready var errado = GameAudio.get_node("Efeitos/Errado")
+@onready var alerta = GameAudio.get_node("Efeitos/Alerta")
+@onready var timer = get_node("cronometro")
 #export (Resource) var data_base
 var data_base
 signal acertou
@@ -133,7 +133,7 @@ func results():
 	m = 0
 	alerta.play()
 	$Resultado/Panel/PTS.text = "Você fez " + String (ponto) + " Pontos"
-	$Resultado/Panel/RE.bbcode_text = String (c)
+	$Resultado/Panel/RE.text = String (c)
 	$Resultado.move(Vector2(0,1144))
 	$cronometro.stop()
 	lmte = 0
@@ -176,7 +176,7 @@ func _notification(what):
 	if what == MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
 		GameAudio.som_do_botao()
 		timer.stop()
-		x = get_tree().change_scene("res://Scenes/Control.tscn")
+		x = get_tree().change_scene_to_file("res://Scenes/Control.tscn")
 		queue_free()
 # Sinal emitido queando todos os santos já aparesceram na tela, chama a tela 
 func _on_Node2D_lmt():

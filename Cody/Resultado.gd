@@ -11,7 +11,7 @@ func move(target):
 	pass
 # Vai para o menu
 func _on_Menu_pressed():
-	var m = get_tree().change_scene("res://Scenes/Control.tscn")
+	var m = get_tree().change_scene_to_file("res://Scenes/Control.tscn")
 #	Globals.ra = []	
 	queue_free()
 	pass 
@@ -21,6 +21,6 @@ func _on_Jogar_pressed():
 		Globals.go_to_scene("res://Scenes/selecao.tscn")
 		Globals.ra = []	
 	else:
-		var j = get_tree().change_scene("res://Scenes/Conol.tscn")
+		var j = get_tree().change_scene_to_file("res://Scenes/Conol.tscn")
 	get_parent().queue_free()
 	pass 

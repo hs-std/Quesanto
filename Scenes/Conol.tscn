@@ -1,29 +1,29 @@
 [gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://Scenes/Button_tex.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="FontFile" id=2]
 [ext_resource path="res://Scenes/Movmento.tscn" type="PackedScene" id=3]
 [ext_resource path="res://Cody/Conol.gd" type="Script" id=4]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="DynamicFontData" id=5]
-[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=6]
-[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=7]
-[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=8]
-[ext_resource path="res://Sprites/vol_pres.png" type="Texture" id=9]
-[ext_resource path="res://Sprites/vol_n.png" type="Texture" id=10]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="FontFile" id=5]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture2D" id=6]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture2D" id=7]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture2D" id=8]
+[ext_resource path="res://Sprites/vol_pres.png" type="Texture2D" id=9]
+[ext_resource path="res://Sprites/vol_n.png" type="Texture2D" id=10]
 
-[sub_resource type="DynamicFont" id=7]
+[sub_resource type="FontFile" id=7]
 size = 150
 outline_size = 7
 use_filter = true
 font_data = ExtResource( 2 )
 
-[sub_resource type="DynamicFont" id=8]
+[sub_resource type="FontFile" id=8]
 size = 50
 outline_size = 7
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 2 )
 
-[sub_resource type="DynamicFont" id=9]
+[sub_resource type="FontFile" id=9]
 size = 50
 outline_size = 5
 outline_color = Color( 0, 0, 0, 1 )
@@ -71,7 +71,7 @@ VScrollBar/styles/grabber_highlight = SubResource( 1 )
 VScrollBar/styles/grabber_pressed = SubResource( 2 )
 VScrollBar/styles/scroll = SubResource( 3 )
 
-[sub_resource type="DynamicFont" id=12]
+[sub_resource type="FontFile" id=12]
 size = 900
 outline_size = 20
 use_filter = true
@@ -100,7 +100,7 @@ VScrollBar/styles/scroll = SubResource( 3 )
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_scale = Vector2( 1.00002, 1.00002 )
+scale = Vector2( 1.00002, 1.00002 )
 theme = SubResource( 11 )
 script = ExtResource( 4 )
 
@@ -115,17 +115,17 @@ modulate = Color( 0, 0.427451, 0.329412, 0.262745 )
 [node name="contador" type="Label" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = 43.0
-margin_bottom = 94.0
+offset_top = 43.0
+offset_bottom = 94.0
 theme = SubResource( 10 )
 text = "5"
 align = 1
 valign = 1
 
 [node name="Label2" type="Label" parent="."]
-margin_top = 96.0
-margin_right = 2340.0
-margin_bottom = 180.0
+offset_top = 96.0
+offset_right = 2340.0
+offset_bottom = 180.0
 text = "O jogo começa em..."
 align = 1
 
@@ -140,10 +140,10 @@ valign = 1
 autowrap = true
 
 [node name="Voltar" parent="Label" instance=ExtResource( 1 )]
-margin_left = 94.0
-margin_top = 66.0
-margin_right = 234.0
-margin_bottom = 206.0
+offset_left = 94.0
+offset_top = 66.0
+offset_right = 234.0
+offset_bottom = 206.0
 normal = ExtResource( 10 )
 press = ExtResource( 9 )
 hovered = ExtResource( 10 )

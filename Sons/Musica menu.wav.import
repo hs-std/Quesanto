@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Musica menu.wav-9ecb13c0a70805dfe8b2733361397948.sample"
+type="AudioStreamWAV"
+uid="uid://up2egjixqxud"
+path="res://.godot/imported/Musica menu.wav-9ecb13c0a70805dfe8b2733361397948.sample"
 
 [deps]
 
 source_file="res://Sons/Musica menu.wav"
-dest_files=[ "res://.import/Musica menu.wav-9ecb13c0a70805dfe8b2733361397948.sample" ]
+dest_files=["res://.godot/imported/Musica menu.wav-9ecb13c0a70805dfe8b2733361397948.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=true
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=0

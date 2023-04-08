@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Clic.wav-d5b527728c006107fb09fb6c22558109.sample"
+type="AudioStreamWAV"
+uid="uid://dnlnw6wv3qvbo"
+path="res://.godot/imported/Clic.wav-d5b527728c006107fb09fb6c22558109.sample"
 
 [deps]
 
 source_file="res://Sons/Clic.wav"
-dest_files=[ "res://.import/Clic.wav-d5b527728c006107fb09fb6c22558109.sample" ]
+dest_files=["res://.godot/imported/Clic.wav-d5b527728c006107fb09fb6c22558109.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=1

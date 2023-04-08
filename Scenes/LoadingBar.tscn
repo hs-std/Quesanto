@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://Fontes/NA50.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Fontes/NA50.tres" type="FontFile" id=1]
 [ext_resource path="res://Themes/LoadingBar.tres" type="StyleBox" id=2]
 
 [node name="ProgressBar" type="ProgressBar"]
@@ -8,13 +8,13 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -590.0
-margin_top = -26.0
-margin_right = 590.0
-margin_bottom = 27.0
-custom_fonts/font = ExtResource( 1 )
-custom_styles/fg = ExtResource( 2 )
-custom_styles/bg = ExtResource( 2 )
+offset_left = -590.0
+offset_top = -26.0
+offset_right = 590.0
+offset_bottom = 27.0
+theme_override_fonts/font = ExtResource( 1 )
+theme_override_styles/fg = ExtResource( 2 )
+theme_override_styles/bg = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
 }

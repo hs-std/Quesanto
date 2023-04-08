@@ -1,30 +1,30 @@
 [gd_scene load_steps=23 format=2]
 
 [ext_resource path="res://Scenes/Button_tex.tscn" type="PackedScene" id=2]
-[ext_resource path="res://Sprites/vol_pres.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=5]
-[ext_resource path="res://Sprites/vol_n.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/vol_pres.png" type="Texture2D" id=3]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture2D" id=4]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture2D" id=5]
+[ext_resource path="res://Sprites/vol_n.png" type="Texture2D" id=6]
 [ext_resource path="res://Cody/Sobre.gd" type="Script" id=7]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="DynamicFontData" id=8]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=9]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="FontFile" id=8]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="FontFile" id=9]
 [ext_resource path="res://Themes/Botões.tres" type="Theme" id=10]
-[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=11]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture2D" id=11]
 [ext_resource path="res://Scenes/Movmento.tscn" type="PackedScene" id=12]
 
-[sub_resource type="DynamicFont" id=7]
+[sub_resource type="FontFile" id=7]
 size = 25
 outline_size = 3
 use_filter = true
 font_data = ExtResource( 9 )
 
-[sub_resource type="DynamicFont" id=5]
+[sub_resource type="FontFile" id=5]
 size = 50
 outline_size = 4
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 9 )
 
-[sub_resource type="DynamicFont" id=6]
+[sub_resource type="FontFile" id=6]
 size = 50
 outline_size = 4
 outline_color = Color( 0, 0, 0, 1 )
@@ -72,7 +72,7 @@ VScrollBar/styles/grabber_highlight = SubResource( 1 )
 VScrollBar/styles/grabber_pressed = SubResource( 2 )
 VScrollBar/styles/scroll = SubResource( 3 )
 
-[sub_resource type="DynamicFont" id=10]
+[sub_resource type="FontFile" id=10]
 size = 30
 outline_size = 6
 outline_color = Color( 0, 0, 0, 1 )
@@ -87,7 +87,7 @@ font_data = ExtResource( 9 )
 [node name="Sobre" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-rect_scale = Vector2( 1.00009, 1.00009 )
+scale = Vector2( 1.00009, 1.00009 )
 theme = ExtResource( 10 )
 script = ExtResource( 7 )
 __meta__ = {
@@ -106,12 +106,12 @@ modulate = Color( 0, 0.427451, 0.329412, 0.262745 )
 [node name="RichTextLabel" type="RichTextLabel" parent="."]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -953.0
-margin_top = 179.0
-margin_right = 953.0
-margin_bottom = 966.0
+offset_left = -953.0
+offset_top = 179.0
+offset_right = 953.0
+offset_bottom = 966.0
 bbcode_enabled = true
-bbcode_text = "[center][b]Como Jogar?[/b]
+text = "[center][b]Como Jogar?[/b]
 
 Ideal para jogar com duas ou mais pessoas. Uma das pessoas ficará com o celular na testa e terá que adivinhar quem é o santo que está aparecendo. Os outros jogadores podem dar dicas sobre a vida do santo em questão. Ganha quem fizer mais pontos.
 
@@ -149,10 +149,10 @@ Salve Maria!"
 [node name="Label2" type="Label" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 260.0
-margin_top = 64.0
-margin_right = -260.0
-margin_bottom = -864.0
+offset_left = 260.0
+offset_top = 64.0
+offset_right = -260.0
+offset_bottom = -864.0
 text = "SOBRE"
 align = 1
 autowrap = true
@@ -162,10 +162,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -910.0
-margin_top = -80.0
-margin_right = 910.0
-margin_bottom = -247.998
+offset_left = -910.0
+offset_top = -80.0
+offset_right = 910.0
+offset_bottom = -247.998
 theme = SubResource( 8 )
 text = "hs studio - 2022
 versão 2.0.5"
@@ -175,10 +175,10 @@ autowrap = true
 uppercase = true
 
 [node name="Voltar" parent="." instance=ExtResource( 2 )]
-margin_left = 94.0
-margin_top = 66.0
-margin_right = 234.0
-margin_bottom = 206.0
+offset_left = 94.0
+offset_top = 66.0
+offset_right = 234.0
+offset_bottom = 206.0
 normal = ExtResource( 6 )
 press = ExtResource( 3 )
 hovered = ExtResource( 6 )
@@ -186,18 +186,18 @@ hovered = ExtResource( 6 )
 [node name="Instagram" type="Button" parent="."]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = 64.0
-margin_top = -61.0
-margin_right = 247.0
-margin_bottom = -28.0
-custom_colors/font_color_focus = Color( 0, 0.427451, 0.329412, 1 )
-custom_colors/font_color = Color( 1, 1, 1, 1 )
-custom_colors/font_color_hover = Color( 0.607843, 0.894118, 0.827451, 1 )
-custom_colors/font_color_pressed = Color( 0, 0.427451, 0.329412, 1 )
-custom_fonts/font = SubResource( 10 )
-custom_styles/hover = SubResource( 11 )
-custom_styles/pressed = SubResource( 12 )
-custom_styles/normal = SubResource( 4 )
+offset_left = 64.0
+offset_top = -61.0
+offset_right = 247.0
+offset_bottom = -28.0
+theme_override_colors/font_focus_color = Color( 0, 0.427451, 0.329412, 1 )
+theme_override_colors/font_color = Color( 1, 1, 1, 1 )
+theme_override_colors/font_hover_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+theme_override_colors/font_pressed_color = Color( 0, 0.427451, 0.329412, 1 )
+theme_override_fonts/font = SubResource( 10 )
+theme_override_styles/hover = SubResource( 11 )
+theme_override_styles/pressed = SubResource( 12 )
+theme_override_styles/normal = SubResource( 4 )
 text = "INSTAGRAM"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -206,18 +206,18 @@ __meta__ = {
 [node name="Site" type="Button" parent="."]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = 293.671
-margin_top = -61.0
-margin_right = 363.671
-margin_bottom = -28.0
-custom_colors/font_color_focus = Color( 0, 0.427451, 0.329412, 1 )
-custom_colors/font_color = Color( 1, 1, 1, 1 )
-custom_colors/font_color_hover = Color( 0.607843, 0.894118, 0.827451, 1 )
-custom_colors/font_color_pressed = Color( 0, 0.427451, 0.329412, 1 )
-custom_fonts/font = SubResource( 10 )
-custom_styles/hover = SubResource( 11 )
-custom_styles/pressed = SubResource( 12 )
-custom_styles/normal = SubResource( 4 )
+offset_left = 293.671
+offset_top = -61.0
+offset_right = 363.671
+offset_bottom = -28.0
+theme_override_colors/font_focus_color = Color( 0, 0.427451, 0.329412, 1 )
+theme_override_colors/font_color = Color( 1, 1, 1, 1 )
+theme_override_colors/font_hover_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+theme_override_colors/font_pressed_color = Color( 0, 0.427451, 0.329412, 1 )
+theme_override_fonts/font = SubResource( 10 )
+theme_override_styles/hover = SubResource( 11 )
+theme_override_styles/pressed = SubResource( 12 )
+theme_override_styles/normal = SubResource( 4 )
 text = "SITE"
 __meta__ = {
 "_edit_use_anchors_": false

@@ -1,7 +1,7 @@
 extends CenterContainer
 
-export (Resource) var base_de_dados
-export (String) var texto
+@export (Resource) var base_de_dados
+@export (String) var texto
 signal data
 
 

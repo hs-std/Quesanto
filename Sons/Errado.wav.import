@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/Errado.wav-936a32ee99d29f1cd4a0ffd16f11fa1f.sample"
+type="AudioStreamWAV"
+uid="uid://ddupin5nmb1ud"
+path="res://.godot/imported/Errado.wav-936a32ee99d29f1cd4a0ffd16f11fa1f.sample"
 
 [deps]
 
 source_file="res://Sons/Errado.wav"
-dest_files=[ "res://.import/Errado.wav-936a32ee99d29f1cd4a0ffd16f11fa1f.sample" ]
+dest_files=["res://.godot/imported/Errado.wav-936a32ee99d29f1cd4a0ffd16f11fa1f.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=1

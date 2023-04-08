@@ -1,13 +1,14 @@
 [remap]
 
 importer="wav"
-type="AudioStreamSample"
-path="res://.import/alerta.wav-8b1c59c0faead3c4f4d5e48fb20332ed.sample"
+type="AudioStreamWAV"
+uid="uid://u5pbudt7fouh"
+path="res://.godot/imported/alerta.wav-8b1c59c0faead3c4f4d5e48fb20332ed.sample"
 
 [deps]
 
 source_file="res://Sons/alerta.wav"
-dest_files=[ "res://.import/alerta.wav-8b1c59c0faead3c4f4d5e48fb20332ed.sample" ]
+dest_files=["res://.godot/imported/alerta.wav-8b1c59c0faead3c4f4d5e48fb20332ed.sample"]
 
 [params]
 
@@ -17,5 +18,7 @@ force/max_rate=false
 force/max_rate_hz=44100
 edit/trim=false
 edit/normalize=false
-edit/loop=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
 compress/mode=1

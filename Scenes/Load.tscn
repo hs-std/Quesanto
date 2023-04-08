@@ -6,8 +6,8 @@
 [node name="Node2D" type="Control"]
 anchor_right = 0.998
 anchor_bottom = 1.0
-margin_right = 4.67993
-rect_pivot_offset = Vector2( -1473, 363 )
+offset_right = 4.67993
+pivot_offset = Vector2( -1473, 363 )
 script = ExtResource( 2 )
 
 [node name="ColorRect" type="ColorRect" parent="."]
@@ -18,10 +18,10 @@ color = Color( 0, 0.670588, 0.509804, 1 )
 [node name="Label2" type="Label" parent="."]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -1170.0
-margin_top = 133.0
-margin_right = 1170.0
-margin_bottom = 225.0
+offset_left = -1170.0
+offset_top = 133.0
+offset_right = 1170.0
+offset_bottom = 225.0
 theme = ExtResource( 3 )
 text = "Carregando!"
 align = 1

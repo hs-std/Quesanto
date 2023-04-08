@@ -6,33 +6,18 @@
 ;   [section] ; section goes between []
 ;   param=value ; assign values to parameters
 
-config_version=4
-
-_global_script_classes=[ {
-"base": "Resource",
-"class": "Santo",
-"language": "GDScript",
-"path": "res://Cody/Santos_recurso.gd"
-}, {
-"base": "Resource",
-"class": "data_base",
-"language": "GDScript",
-"path": "res://Cody/Data_base.gd"
-} ]
-_global_script_class_icons={
-"Santo": "res://Cody/santos/icon_santo.png",
-"data_base": "res://Cody/Banco de dados/icon_bd.png"
-}
+config_version=5
 
 [application]
 
 config/name="Quem sou eu - Santos"
 run/main_scene="res://Scenes/Open.tscn"
-run/low_processor_mode_sleep_usec=false
-boot_splash/image="res://inicio.png"
-boot_splash/bg_color=Color( 0, 0, 0, 1 )
-config/icon="res://icon.png"
 config/quit_on_go_back=false
+config/features=PackedStringArray("4.0")
+run/low_processor_mode_sleep_usec=false
+boot_splash/bg_color=Color(0, 0, 0, 1)
+boot_splash/image="res://inicio.png"
+config/icon="res://icon.png"
 
 [autoload]
 
@@ -41,10 +26,10 @@ Globals="*res://Cody/Globals.gd"
 
 [display]
 
-window/size/width=2340
-window/size/height=1080
-window/size/test_width=585
-window/size/test_height=270
+window/size/viewport_width=2340
+window/size/viewport_height=1080
+window/size/window_width_override=585
+window/size/window_height_override=270
 window/stretch/mode="2d"
 window/stretch/aspect="keep_width"
 
@@ -58,8 +43,8 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+environment/defaults/default_environment="res://default_env.tres"
 quality/driver/driver_name="GLES2"
 vram_compression/import_bptc=true
 vram_compression/import_etc=true
 vram_compression/import_pvrtc=true
-environment/default_environment="res://default_env.tres"

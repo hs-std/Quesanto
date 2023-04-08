@@ -1,7 +1,7 @@
 extends Control
 var lbl = 5
 var j
-onready var tempo = GameAudio.get_node("Efeitos/Tempo")
+@onready var tempo = GameAudio.get_node("Efeitos/Tempo")
 
 func _ready():
 	Globals.efemenu = false #Impede os sons de efeito de tocar fora da tela de jogo
@@ -40,10 +40,10 @@ func _on_Timer_timeout():
 func _notification(what):
 	if what == MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
 		GameAudio.som_do_botao()
-		var _u = get_tree().change_scene("res://Scenes/Control.tscn")
+		var _u = get_tree().change_scene_to_file("res://Scenes/Control.tscn")
 		queue_free()
 
 func _on_Voltar_pressed():
 	GameAudio.som_do_botao()
-	var _u = get_tree().change_scene("res://Scenes/Control.tscn")
+	var _u = get_tree().change_scene_to_file("res://Scenes/Control.tscn")
 	queue_free()

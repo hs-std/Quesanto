@@ -1,8 +1,8 @@
-tool
+@tool
 extends Button
-onready var lab : Label = get_node("Label")
-onready var cor = get_node("cor")
-onready var tex : String
+@onready var lab : Label = get_node("Label")
+@onready var cor = get_node("cor")
+@onready var tex : String
 
 	
 #func _ready():
@@ -11,7 +11,7 @@ onready var tex : String
 
 func _process(delta):
 	var _o = delta
-	if Engine.editor_hint:
+	if Engine.is_editor_hint():
 		if self.text.length() > 0:
 			lab.text = self.text
 	else:

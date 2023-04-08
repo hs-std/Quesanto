@@ -1,18 +1,18 @@
 [gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://Scenes/Movmento.tscn" type="PackedScene" id=1]
-[ext_resource path="res://Sprites/Info_n.png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Info_n.png" type="Texture2D" id=2]
 [ext_resource path="res://Scenes/Button_tex.tscn" type="PackedScene" id=3]
-[ext_resource path="res://Sprites/Info_press.png" type="Texture" id=4]
+[ext_resource path="res://Sprites/Info_press.png" type="Texture2D" id=4]
 [ext_resource path="res://Cody/Control.gd" type="Script" id=6]
-[ext_resource path="res://Sprites/Menu/Logo_ani.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Menu/Logo_ani.png" type="Texture2D" id=9]
 [ext_resource path="res://Cody/Config.gd" type="Script" id=10]
-[ext_resource path="res://Sprites/Con_n.png" type="Texture" id=11]
-[ext_resource path="res://Sprites/Con_pres.png" type="Texture" id=12]
-[ext_resource path="res://Sprites/Fecha_n.png" type="Texture" id=13]
-[ext_resource path="res://Sprites/Fecha_press.png" type="Texture" id=14]
+[ext_resource path="res://Sprites/Con_n.png" type="Texture2D" id=11]
+[ext_resource path="res://Sprites/Con_pres.png" type="Texture2D" id=12]
+[ext_resource path="res://Sprites/Fecha_n.png" type="Texture2D" id=13]
+[ext_resource path="res://Sprites/Fecha_press.png" type="Texture2D" id=14]
 [ext_resource path="res://Themes/Botões.tres" type="Theme" id=16]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=17]
+[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="FontFile" id=17]
 [ext_resource path="res://Scenes/Button.tscn" type="PackedScene" id=18]
 
 [sub_resource type="Animation" id=1]
@@ -24,8 +24,8 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 1 )
+"points": PackedFloat32Array( 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PackedFloat32Array( 0, 1 )
 }
 
 [sub_resource type="Animation" id=2]
@@ -38,8 +38,8 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 10, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 7, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 10, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 7, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 )
+"points": PackedFloat32Array( 0, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 10, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 7, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 10, -0.25, 0, 0.25, 0, 9, -0.25, 0, 0.25, 0, 7, -0.25, 0, 0.25, 0 ),
+"times": PackedFloat32Array( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 )
 }
 
 [sub_resource type="Animation" id=3]
@@ -52,8 +52,8 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 2, -0.25, 0, 0.25, 0, 3, -0.25, 0, 0.25, 0, 4, -0.25, 0, 0.25, 0, 5, -0.25, 0, 0.25, 0, 6, -0.25, 0, 0.25, 0, 2, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 )
+"points": PackedFloat32Array( 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 2, -0.25, 0, 0.25, 0, 3, -0.25, 0, 0.25, 0, 4, -0.25, 0, 0.25, 0, 5, -0.25, 0, 0.25, 0, 6, -0.25, 0, 0.25, 0, 2, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PackedFloat32Array( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8 )
 }
 
 [sub_resource type="Animation" id=4]
@@ -66,8 +66,8 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"points": PoolRealArray( 12, -0.25, 0, 0.25, 0, 13, -0.25, 0, 0.25, 0, 14, -0.25, 0, 0.25, 0, 15, -0.25, 0, 0.25, 0, 16, -0.25, 0, 0.25, 0, 17, -0.25, 0, 0.25, 0, 18, -0.25, 0, 0.25, 0, 19, -0.25, 0, 0.25, 0, 20, -0.25, 0, 0.25, 0, 21, -0.25, 0, 0.25, 0, 22, -0.25, 0, 0.25, 0, 23, -0.25, 0, 0.25, 0, 24, -0.25, 0, 0.25, 0 ),
-"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2 )
+"points": PackedFloat32Array( 12, -0.25, 0, 0.25, 0, 13, -0.25, 0, 0.25, 0, 14, -0.25, 0, 0.25, 0, 15, -0.25, 0, 0.25, 0, 16, -0.25, 0, 0.25, 0, 17, -0.25, 0, 0.25, 0, 18, -0.25, 0, 0.25, 0, 19, -0.25, 0, 0.25, 0, 20, -0.25, 0, 0.25, 0, 21, -0.25, 0, 0.25, 0, 22, -0.25, 0, 0.25, 0, 23, -0.25, 0, 0.25, 0, 24, -0.25, 0, 0.25, 0 ),
+"times": PackedFloat32Array( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1, 1.1, 1.2 )
 }
 
 [sub_resource type="StyleBoxFlat" id=18]
@@ -85,7 +85,7 @@ shadow_color = Color( 0, 0, 0, 1 )
 shadow_size = 5
 shadow_offset = Vector2( 0, 7 )
 
-[sub_resource type="DynamicFont" id=16]
+[sub_resource type="FontFile" id=16]
 size = 60
 outline_size = 5
 use_filter = true
@@ -129,7 +129,7 @@ VScrollBar/styles/grabber_highlight = SubResource( 12 )
 VScrollBar/styles/grabber_pressed = SubResource( 13 )
 VScrollBar/styles/scroll = SubResource( 14 )
 
-[sub_resource type="DynamicFont" id=11]
+[sub_resource type="FontFile" id=11]
 size = 30
 outline_size = 3
 use_filter = true
@@ -168,7 +168,7 @@ color = Color( 0, 0.670588, 0.509804, 1 )
 [node name="Panel" parent="." instance=ExtResource( 1 )]
 modulate = Color( 0, 0.427451, 0.329412, 0.262745 )
 
-[node name="Sprite" type="Sprite" parent="."]
+[node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2( 848, 592 )
 scale = Vector2( 2.35156, 2.35156 )
 texture = ExtResource( 9 )
@@ -176,7 +176,7 @@ hframes = 5
 vframes = 5
 frame = 12
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite"]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Sprite2D"]
 anims/0 = SubResource( 1 )
 anims/1 = SubResource( 2 )
 anims/2 = SubResource( 3 )
@@ -184,40 +184,40 @@ anims/3 = SubResource( 4 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="."]
 anchor_bottom = 1.0
-margin_left = 1555.57
-margin_right = 1969.57
-custom_constants/separation = 90
+offset_left = 1555.57
+offset_right = 1969.57
+theme_override_constants/separation = 90
 alignment = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Jogar" parent="VBoxContainer" instance=ExtResource( 18 )]
-margin_top = 255.0
-margin_right = 414.0
-margin_bottom = 385.0
-rect_pivot_offset = Vector2( 144, -200 )
+offset_top = 255.0
+offset_right = 414.0
+offset_bottom = 385.0
+pivot_offset = Vector2( 144, -200 )
 text = "Jogar"
 
 [node name="Vol" parent="VBoxContainer" instance=ExtResource( 18 )]
-margin_top = 475.0
-margin_right = 414.0
-margin_bottom = 605.0
-rect_pivot_offset = Vector2( 144, -200 )
+offset_top = 475.0
+offset_right = 414.0
+offset_bottom = 605.0
+pivot_offset = Vector2( 144, -200 )
 text = "Sobre"
 
 [node name="Sair" parent="VBoxContainer" instance=ExtResource( 18 )]
-margin_top = 695.0
-margin_right = 414.0
-margin_bottom = 825.0
-rect_pivot_offset = Vector2( 144, -200 )
+offset_top = 695.0
+offset_right = 414.0
+offset_bottom = 825.0
+pivot_offset = Vector2( 144, -200 )
 text = "Sair"
 
 [node name="Config_b" parent="." instance=ExtResource( 3 )]
-margin_left = 94.0
-margin_top = 66.0
-margin_right = 234.0
-margin_bottom = 206.0
+offset_left = 94.0
+offset_top = 66.0
+offset_right = 234.0
+offset_bottom = 206.0
 normal = ExtResource( 11 )
 press = ExtResource( 12 )
 hovered = ExtResource( 11 )
@@ -225,10 +225,10 @@ hovered = ExtResource( 11 )
 [node name="Info" parent="." instance=ExtResource( 3 )]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = 94.0
-margin_top = -203.0
-margin_right = 234.0
-margin_bottom = -63.0
+offset_left = 94.0
+offset_top = -203.0
+offset_right = 234.0
+offset_bottom = -63.0
 normal = ExtResource( 2 )
 press = ExtResource( 4 )
 hovered = ExtResource( 2 )
@@ -246,21 +246,21 @@ __meta__ = {
 script = ExtResource( 10 )
 
 [node name="Panel" type="Panel" parent="Config"]
-margin_left = 756.0
-margin_top = -751.0
-margin_right = 1584.0
-margin_bottom = -56.0
-custom_styles/panel = SubResource( 18 )
+offset_left = 756.0
+offset_top = -751.0
+offset_right = 1584.0
+offset_bottom = -56.0
+theme_override_styles/panel = SubResource( 18 )
 
 [node name="BK" type="Control" parent="Config/Panel"]
 anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Label" type="Label" parent="Config/Panel"]
-margin_left = 4.0
-margin_top = 40.0
-margin_right = 832.0
-margin_bottom = 132.0
+offset_left = 4.0
+offset_top = 40.0
+offset_right = 832.0
+offset_bottom = 132.0
 text = "Configurações"
 align = 1
 uppercase = true
@@ -268,90 +268,90 @@ uppercase = true
 [node name="Tween" type="Tween" parent="Config/Panel"]
 
 [node name="Song" parent="Config/Panel" instance=ExtResource( 3 )]
-margin_left = 563.0
-margin_top = 162.0
-margin_right = 703.0
-margin_bottom = 302.0
+offset_left = 563.0
+offset_top = 162.0
+offset_right = 703.0
+offset_bottom = 302.0
 
 [node name="Som" parent="Config/Panel" instance=ExtResource( 3 )]
-margin_left = 563.0
-margin_top = 324.0
-margin_right = 703.0
-margin_bottom = 464.0
+offset_left = 563.0
+offset_top = 324.0
+offset_right = 703.0
+offset_bottom = 464.0
 
 [node name="Fechar" parent="Config/Panel" instance=ExtResource( 3 )]
-margin_left = 758.0
-margin_top = -48.0
-margin_right = 898.0
-margin_bottom = 92.0
+offset_left = 758.0
+offset_top = -48.0
+offset_right = 898.0
+offset_bottom = 92.0
 normal = ExtResource( 13 )
 press = ExtResource( 14 )
 hovered = ExtResource( 13 )
 
 [node name="mus" type="Label" parent="Config/Panel"]
-margin_left = 132.0
-margin_top = 183.0
-margin_right = 660.0
-margin_bottom = 287.0
+offset_left = 132.0
+offset_top = 183.0
+offset_right = 660.0
+offset_bottom = 287.0
 theme = SubResource( 17 )
 text = "Música:"
 
 [node name="tem" type="Label" parent="Config/Panel"]
-margin_left = 4.0
-margin_top = 489.0
-margin_right = 828.0
-margin_bottom = 593.0
+offset_left = 4.0
+offset_top = 489.0
+offset_right = 828.0
+offset_bottom = 593.0
 theme = SubResource( 17 )
 text = "Tempo da partida:"
 align = 1
 valign = 1
 
 [node name="som" type="Label" parent="Config/Panel"]
-margin_left = 132.0
-margin_top = 345.0
-margin_right = 660.0
-margin_bottom = 449.0
+offset_left = 132.0
+offset_top = 345.0
+offset_right = 660.0
+offset_bottom = 449.0
 theme = SubResource( 17 )
 text = "Som:"
 
 [node name="temps2" type="Label" parent="Config/Panel"]
 visible = false
-margin_left = 62.0001
-margin_top = 575.0
-margin_right = 654.0
-margin_bottom = 679.0
+offset_left = 62.0001
+offset_top = 575.0
+offset_right = 654.0
+offset_bottom = 679.0
 theme = SubResource( 15 )
 text = "  30s                   60s                  90s"
 align = 2
 valign = 1
 
 [node name="60" type="CheckBox" parent="Config/Panel"]
-margin_left = 405.0
-margin_top = 578.0
-margin_right = 438.0
-margin_bottom = 611.0
-rect_scale = Vector2( 3, 3 )
+offset_left = 405.0
+offset_top = 578.0
+offset_right = 438.0
+offset_bottom = 611.0
+scale = Vector2( 3, 3 )
 
 [node name="temps" type="Label" parent="Config/Panel/60"]
 anchor_left = 0.273
 anchor_top = 0.495
 anchor_right = 0.273
 anchor_bottom = 0.495
-margin_left = -24.009
-margin_top = -7.00167
-margin_right = 21.991
-margin_bottom = 27.9983
-rect_scale = Vector2( 0.4, 0.4 )
+offset_left = -24.009
+offset_top = -7.00167
+offset_right = 21.991
+offset_bottom = 27.9983
+scale = Vector2( 0.4, 0.4 )
 theme = SubResource( 15 )
 text = "90s"
 valign = 1
 
 [node name="30" type="CheckBox" parent="Config/Panel"]
-margin_left = 157.0
-margin_top = 578.0
-margin_right = 190.0
-margin_bottom = 611.0
-rect_scale = Vector2( 3, 3 )
+offset_left = 157.0
+offset_top = 578.0
+offset_right = 190.0
+offset_bottom = 611.0
+scale = Vector2( 3, 3 )
 theme = ExtResource( 16 )
 
 [node name="temps" type="Label" parent="Config/Panel/30"]
@@ -359,21 +359,21 @@ anchor_left = 0.273
 anchor_top = 0.495
 anchor_right = 0.273
 anchor_bottom = 0.495
-margin_left = -24.0091
-margin_top = -7.00167
-margin_right = 21.9909
-margin_bottom = 27.9983
-rect_scale = Vector2( 0.4, 0.4 )
+offset_left = -24.0091
+offset_top = -7.00167
+offset_right = 21.9909
+offset_bottom = 27.9983
+scale = Vector2( 0.4, 0.4 )
 theme = SubResource( 15 )
 text = "60s"
 valign = 1
 
 [node name="90" type="CheckBox" parent="Config/Panel"]
-margin_left = 645.0
-margin_top = 578.0
-margin_right = 678.0
-margin_bottom = 611.0
-rect_scale = Vector2( 3, 3 )
+offset_left = 645.0
+offset_top = 578.0
+offset_right = 678.0
+offset_bottom = 611.0
+scale = Vector2( 3, 3 )
 theme = ExtResource( 16 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -384,11 +384,11 @@ anchor_left = 0.273
 anchor_top = 0.495
 anchor_right = 0.273
 anchor_bottom = 0.495
-margin_left = -25.6756
-margin_top = -7.00167
-margin_right = 31.3244
-margin_bottom = 27.9983
-rect_scale = Vector2( 0.4, 0.4 )
+offset_left = -25.6756
+offset_top = -7.00167
+offset_right = 31.3244
+offset_bottom = 27.9983
+scale = Vector2( 0.4, 0.4 )
 theme = SubResource( 15 )
 text = "120s"
 valign = 1
@@ -399,19 +399,19 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 
 [node name="Panel" type="Panel" parent="aviso"]
-margin_left = 224.0
-margin_top = 119.0
-margin_right = 2116.0
-margin_bottom = 986.0
-custom_styles/panel = SubResource( 18 )
+offset_left = 224.0
+offset_top = 119.0
+offset_right = 2116.0
+offset_bottom = 986.0
+theme_override_styles/panel = SubResource( 18 )
 
 [node name="Fechar_aviso" parent="aviso/Panel" instance=ExtResource( 3 )]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -70.0
-margin_top = -48.0
-margin_right = 70.0
-margin_bottom = 92.0
+offset_left = -70.0
+offset_top = -48.0
+offset_right = 70.0
+offset_bottom = 92.0
 normal = ExtResource( 13 )
 press = ExtResource( 14 )
 hovered = ExtResource( 13 )
@@ -419,31 +419,31 @@ hovered = ExtResource( 13 )
 [node name="Label" type="Label" parent="aviso/Panel"]
 anchor_left = 0.5
 anchor_right = 0.5
-margin_left = -864.0
-margin_top = 48.0
-margin_right = 864.0
-margin_bottom = 140.0
+offset_left = -864.0
+offset_top = 48.0
+offset_right = 864.0
+offset_bottom = 140.0
 text = "Feliz aniversário!"
 align = 1
 uppercase = true
 
 [node name="HSplitContainer" type="ScrollContainer" parent="aviso/Panel"]
-margin_left = 96.0
-margin_top = 198.0
-margin_right = 1789.0
-margin_bottom = 832.0
+offset_left = 96.0
+offset_top = 198.0
+offset_right = 1789.0
+offset_bottom = 832.0
 size_flags_horizontal = 3
 scroll_horizontal_enabled = false
 
 [node name="VBoxContainer" type="VBoxContainer" parent="aviso/Panel/HSplitContainer"]
-margin_right = 1693.0
-margin_bottom = 1149.0
+offset_right = 1693.0
+offset_bottom = 1149.0
 size_flags_horizontal = 3
 alignment = 1
 
 [node name="text" type="Label" parent="aviso/Panel/HSplitContainer/VBoxContainer"]
-margin_right = 1685.0
-margin_bottom = 1149.0
+offset_right = 1685.0
+offset_bottom = 1149.0
 theme = SubResource( 17 )
 text = "O \"Que Santo Sou Eu?\" foi o nosso primeiro jogo lançado publicamente, e para nós é uma enorme alegria ver ele completar um ano após o seu lançamento, para celebrar decidimos preparar essa atualização de aniversário com algumas melhorias e sugestões de vocês. 
 

@@ -1,8 +1,8 @@
 extends Panel
-onready var i1 = get_node("TextureRect") 
-onready var i2 = get_node("TextureRect2")
+@onready var i1 = get_node("TextureRect") 
+@onready var i2 = get_node("TextureRect2")
 var m = 0
-export (float) var vel = 0.1
+@export (float) var vel = 0.1
 
 func _ready():
 	$AnimationPlayer.play("mov")

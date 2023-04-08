@@ -1,0 +1,5 @@
+res://default_env.tres
+res://Scenes/Open.tscn
+res://Cody/Control.gd
+res://Themes/Botões.tres
+res://Cody/Globals.gd

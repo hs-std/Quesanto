@@ -1,6 +1,6 @@
 extends Node
 
-onready var load_scene = preload("res://Scenes/Load.tscn")
+@onready var load_scene = preload("res://Scenes/Load.tscn")
 
 var data
 
@@ -24,12 +24,14 @@ var base
 
 var base_name
 
-export var max_load_time = 600000
+@export var max_load_time = 600000
 
 func _ready():
 	if file.file_exists(save_path):
 		file.open(save_path, File.READ)
-		var _data = parse_json(file.get_as_text() )
+		var test_json_conv = JSON.new()
+		test_json_conv.parse(file.get_as_text() )
+		var _data = test_json_conv.get_data()
 		file.close()
 		if _data.size() < 4: 
 			save_game()
@@ -37,7 +39,7 @@ func _ready():
 			load_game()
 	else:
 		save_game()
-		yield()
+#		await(get_tree().create_timer())
 		load_game()
 	if musi == true:
 		AudioServer.set_bus_mute(1, true)
@@ -46,24 +48,24 @@ func _ready():
 
 
 func goto_scene(_path, current_scene):
-	var loader = ResourceLoader.load_interactive(_path)
+	var loader = ResourceLoader.load_threaded_request(_path)
 	
 	if loader == null:
 		print("Resource loader unable to load the resource at path")
 		return
 	
-	var loading_bar = load("res://Scenes/LoadingBar.tscn").instance()
+	var loading_bar = load("res://Scenes/LoadingBar.tscn").instantiate()
 	
 	get_tree().get_root().call_deferred('add_child',loading_bar)
 	
-	var t = OS.get_ticks_msec()
+	var t = Time.get_ticks_msec()
 	
-	while OS.get_ticks_msec() - t < max_load_time:
+	while Time.get_ticks_msec() - t < max_load_time:
 		var err = loader.poll()
 		if err == ERR_FILE_EOF:
 			#Loading Complete
 			var resource = loader.get_resource()
-			get_tree().get_root().call_deferred('add_child',resource.instance())
+			get_tree().get_root().call_deferred('add_child',resource.instantiate())
 			current_scene.queue_free()
 			loading_bar.queue_free()
 			break
@@ -75,24 +77,26 @@ func goto_scene(_path, current_scene):
 		else:
 			print("Error while loading file")
 			break
-		yield(get_tree(),"idle_frame")
+		await get_tree().idle_frame
 		
 func go_to_scene(_path):
 	data = _path
-	var _o = get_tree().change_scene("res://Scenes/Load.tscn")
+	var _o = get_tree().change_scene_to_file("res://Scenes/Load.tscn")
 
-func save_game(): # Note: you can call this function with an Area node to make a checkpoint
+func save_game(): # Note: you can call this function with an Area3D node to make a checkpoint
 	file.open(save_path, File.WRITE)
 	
 	# Edit this line with what you want to save:
-	file.store_line(to_json({"Efeitos" : efe, "Musica" : musi, "Tempo": tempo, "Aviso":notify}))
+	file.store_line(JSON.new().stringify({"Efeitos" : efe, "Musica" : musi, "Tempo": tempo, "Aviso":notify}))
 	file.close()
 
 	
 	
 func load_game():
 	file.open(save_path, File.READ)
-	var _data = parse_json(file.get_as_text() )
+	var test_json_conv = JSON.new()
+	test_json_conv.parse(file.get_as_text() )
+	var _data = test_json_conv.get_data()
 	file.close()
 
 	# Edit the lines bellow with what you want to load:

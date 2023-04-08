@@ -3,15 +3,15 @@
 [ext_resource path="res://Cody/todos_santos.gd" type="Script" id=1]
 [ext_resource path="res://Scenes/Button_tex.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Cody/Banco de dados/geral_todos.tres" type="Resource" id=3]
-[ext_resource path="res://Sprites/vol_n.png" type="Texture" id=4]
-[ext_resource path="res://Sprites/vol_pres.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/vol_n.png" type="Texture2D" id=4]
+[ext_resource path="res://Sprites/vol_pres.png" type="Texture2D" id=6]
 [ext_resource path="res://Themes/BTM-P.tres" type="StyleBox" id=7]
 [ext_resource path="res://Themes/BTM.tres" type="StyleBox" id=8]
-[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=9]
-[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=10]
-[ext_resource path="res://Sprites/Menu/BT_des_on.png" type="Texture" id=11]
-[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=12]
-[ext_resource path="res://Fontes/NA80.tres" type="DynamicFont" id=13]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture2D" id=9]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture2D" id=10]
+[ext_resource path="res://Sprites/Menu/BT_des_on.png" type="Texture2D" id=11]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture2D" id=12]
+[ext_resource path="res://Fontes/NA80.tres" type="FontFile" id=13]
 [ext_resource path="res://Scenes/Movmento.tscn" type="PackedScene" id=14]
 [ext_resource path="res://Themes/Botões.tres" type="Theme" id=15]
 
@@ -91,30 +91,30 @@ modulate = Color( 0, 0.427451, 0.329412, 0.262745 )
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_top = 114.0
-custom_constants/margin_right = 85
-custom_constants/margin_top = 110
-custom_constants/margin_left = 85
-custom_constants/margin_bottom = 0
+offset_top = 114.0
+theme_override_constants/margin_right = 85
+theme_override_constants/margin_top = 110
+theme_override_constants/margin_left = 85
+theme_override_constants/margin_bottom = 0
 
 [node name="HSplitContainer" type="ScrollContainer" parent="MarginContainer"]
-margin_left = 85.0
-margin_top = 110.0
-margin_right = 2255.0
-margin_bottom = 966.0
+offset_left = 85.0
+offset_top = 110.0
+offset_right = 2255.0
+offset_bottom = 966.0
 size_flags_horizontal = 3
 scroll_horizontal_enabled = false
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/HSplitContainer"]
-margin_right = 2170.0
+offset_right = 2170.0
 size_flags_horizontal = 3
 alignment = 1
 
 [node name="Voltar" parent="." instance=ExtResource( 2 )]
-margin_left = 94.0
-margin_top = 66.0
-margin_right = 234.0
-margin_bottom = 206.0
+offset_left = 94.0
+offset_top = 66.0
+offset_right = 234.0
+offset_bottom = 206.0
 normal = ExtResource( 4 )
 press = ExtResource( 6 )
 hovered = ExtResource( 4 )
@@ -122,10 +122,10 @@ hovered = ExtResource( 4 )
 [node name="titulo" type="Label" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 260.0
-margin_top = 64.0
-margin_right = -260.0
-margin_bottom = -864.0
+offset_left = 260.0
+offset_top = 64.0
+offset_right = -260.0
+offset_bottom = -864.0
 theme = ExtResource( 15 )
 text = "TODOS OS SANTOS"
 align = 1

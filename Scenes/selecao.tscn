@@ -7,14 +7,14 @@
 [ext_resource path="res://Cody/selecao.gd" type="Script" id=6]
 [ext_resource path="res://Themes/BTM-P.tres" type="StyleBox" id=7]
 [ext_resource path="res://Themes/BTM.tres" type="StyleBox" id=8]
-[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=9]
-[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=10]
-[ext_resource path="res://Sprites/Menu/BT_des_on.png" type="Texture" id=11]
-[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=12]
-[ext_resource path="res://Fontes/NA80.tres" type="DynamicFont" id=13]
+[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture2D" id=9]
+[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture2D" id=10]
+[ext_resource path="res://Sprites/Menu/BT_des_on.png" type="Texture2D" id=11]
+[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture2D" id=12]
+[ext_resource path="res://Fontes/NA80.tres" type="FontFile" id=13]
 [ext_resource path="res://Scenes/Movmento.tscn" type="PackedScene" id=14]
-[ext_resource path="res://Sprites/vol_n.png" type="Texture" id=15]
-[ext_resource path="res://Sprites/vol_pres.png" type="Texture" id=16]
+[ext_resource path="res://Sprites/vol_n.png" type="Texture2D" id=15]
+[ext_resource path="res://Sprites/vol_pres.png" type="Texture2D" id=16]
 [ext_resource path="res://Cody/Banco de dados/Santos_homens.tres" type="Resource" id=17]
 [ext_resource path="res://Cody/Banco de dados/santas_mulheres.tres" type="Resource" id=18]
 
@@ -92,72 +92,72 @@ modulate = Color( 0, 0.427451, 0.329412, 0.262745 )
 [node name="MarginContainer" type="MarginContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-custom_constants/margin_right = 50
-custom_constants/margin_top = 100
-custom_constants/margin_left = 50
-custom_constants/margin_bottom = 50
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_bottom = 50
 
 [node name="HSplitContainer" type="ScrollContainer" parent="MarginContainer"]
-margin_left = 50.0
-margin_top = 100.0
-margin_right = 2290.0
-margin_bottom = 1030.0
+offset_left = 50.0
+offset_top = 100.0
+offset_right = 2290.0
+offset_bottom = 1030.0
 scroll_horizontal_enabled = false
 
 [node name="CenterContainer" type="CenterContainer" parent="MarginContainer/HSplitContainer"]
-margin_right = 2240.0
-margin_bottom = 850.0
-rect_min_size = Vector2( 2240, 0 )
+offset_right = 2240.0
+offset_bottom = 850.0
+custom_minimum_size = Vector2( 2240, 0 )
 
 [node name="GridContainer" type="GridContainer" parent="MarginContainer/HSplitContainer/CenterContainer"]
-margin_left = 295.0
-margin_right = 1945.0
-margin_bottom = 850.0
-custom_constants/vseparation = 50
-custom_constants/hseparation = 50
+offset_left = 295.0
+offset_right = 1945.0
+offset_bottom = 850.0
+theme_override_constants/v_separation = 50
+theme_override_constants/h_separation = 50
 columns = 2
 
 [node name="Control" parent="MarginContainer/HSplitContainer/CenterContainer/GridContainer" instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_right = 800.0
-margin_bottom = 400.0
+offset_right = 800.0
+offset_bottom = 400.0
 base_de_dados = ExtResource( 3 )
 texto = "Todos"
 
 [node name="Control3" parent="MarginContainer/HSplitContainer/CenterContainer/GridContainer" instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 850.0
-margin_right = 1650.0
-margin_bottom = 400.0
+offset_left = 850.0
+offset_right = 1650.0
+offset_bottom = 400.0
 base_de_dados = ExtResource( 5 )
 texto = "Títulos de Maria"
 
 [node name="Control4" parent="MarginContainer/HSplitContainer/CenterContainer/GridContainer" instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_top = 450.0
-margin_right = 800.0
-margin_bottom = 850.0
+offset_top = 450.0
+offset_right = 800.0
+offset_bottom = 850.0
 base_de_dados = ExtResource( 17 )
 texto = "Santos/Homens"
 
 [node name="Control5" parent="MarginContainer/HSplitContainer/CenterContainer/GridContainer" instance=ExtResource( 1 )]
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 850.0
-margin_top = 450.0
-margin_right = 1650.0
-margin_bottom = 850.0
+offset_left = 850.0
+offset_top = 450.0
+offset_right = 1650.0
+offset_bottom = 850.0
 base_de_dados = ExtResource( 18 )
 texto = "Santas/Mulheres"
 
 [node name="Voltar" parent="." instance=ExtResource( 2 )]
-margin_left = 94.0
-margin_top = 66.0
-margin_right = 234.0
-margin_bottom = 206.0
+offset_left = 94.0
+offset_top = 66.0
+offset_right = 234.0
+offset_bottom = 206.0
 normal = ExtResource( 15 )
 press = ExtResource( 16 )
 hovered = ExtResource( 15 )

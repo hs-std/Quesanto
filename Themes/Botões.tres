@@ -1,66 +1,84 @@
-[gd_resource type="Theme" load_steps=12 format=2]
+[gd_resource type="Theme" load_steps=12 format=3 uid="uid://bpfvun0l34yjo"]
 
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://Sprites/Menu/BT_des.png" type="Texture" id=2]
-[ext_resource path="res://Sprites/Menu/BT_on.png" type="Texture" id=3]
-[ext_resource path="res://Sprites/Menu/BT_off.png" type="Texture" id=4]
-[ext_resource path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" type="DynamicFontData" id=5]
+[ext_resource type="FontFile" uid="uid://b18o67o26gly8" path="res://Fontes/Comic_Neue/ComicNeue-Bold.ttf" id="1"]
+[ext_resource type="Texture2D" uid="uid://bxvjhibvnqmyu" path="res://Sprites/Menu/BT_des.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dx5jh3jstpau6" path="res://Sprites/Menu/BT_on.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b4kul7fmtocjm" path="res://Sprites/Menu/BT_off.png" id="4"]
+[ext_resource type="FontFile" uid="uid://cp828rnfmws00" path="res://Fontes/Comic_Neue/ComicNeue-Regular.ttf" id="5"]
 
-[sub_resource type="DynamicFont" id=4]
-size = 80
-outline_size = 7
-use_filter = true
-font_data = ExtResource( 1 )
+[sub_resource type="FontFile" id="4"]
+fallbacks = Array[Font]([ExtResource("1")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
-[sub_resource type="DynamicFont" id=5]
-size = 50
-outline_size = 7
-outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 1 )
+[sub_resource type="FontFile" id="5"]
+fallbacks = Array[Font]([ExtResource("1")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
-[sub_resource type="DynamicFont" id=6]
-size = 50
-outline_size = 5
-outline_color = Color( 0, 0, 0, 1 )
-font_data = ExtResource( 5 )
+[sub_resource type="FontFile" id="6"]
+fallbacks = Array[Font]([ExtResource("5")])
+face_index = null
+embolden = null
+transform = null
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
 
-[sub_resource type="StyleBoxFlat" id=1]
-bg_color = Color( 0, 0.427451, 0.329412, 1 )
+[sub_resource type="StyleBoxFlat" id="1"]
+bg_color = Color(0, 0.427451, 0.329412, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
-[sub_resource type="StyleBoxFlat" id=2]
-bg_color = Color( 0.027451, 0.262745, 0.207843, 1 )
+[sub_resource type="StyleBoxFlat" id="2"]
+bg_color = Color(0.027451, 0.262745, 0.207843, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
-[sub_resource type="StyleBoxFlat" id=3]
+[sub_resource type="StyleBoxFlat" id="3"]
 content_margin_left = 8.0
-bg_color = Color( 0.607843, 0.894118, 0.827451, 1 )
+bg_color = Color(0.607843, 0.894118, 0.827451, 1)
 corner_radius_top_left = 20
 corner_radius_top_right = 20
 corner_radius_bottom_right = 20
 corner_radius_bottom_left = 20
 
 [resource]
-CheckBox/icons/checked = ExtResource( 3 )
-CheckBox/icons/checked_disabled = ExtResource( 2 )
-CheckBox/icons/unchecked = ExtResource( 4 )
-CheckBox/icons/unchecked_disabled = ExtResource( 3 )
-Label/colors/font_color = Color( 1, 1, 1, 1 )
-Label/colors/font_color_shadow = Color( 0, 0, 0, 1 )
-Label/colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+CheckBox/icons/checked = ExtResource("3")
+CheckBox/icons/checked_disabled = ExtResource("2")
+CheckBox/icons/unchecked = ExtResource("4")
+CheckBox/icons/unchecked_disabled = ExtResource("3")
+Label/colors/font_color = Color(1, 1, 1, 1)
+Label/colors/font_color_shadow = Color(0, 0, 0, 1)
+Label/colors/font_outline_modulate = Color(0, 0, 0, 1)
 Label/constants/shadow_offset_y = 10
-Label/fonts/font = SubResource( 4 )
+Label/fonts/font = SubResource("4")
 Label/styles/normal = null
-RichTextLabel/colors/font_color_shadow = Color( 0, 0, 0, 1 )
-RichTextLabel/fonts/bold_font = SubResource( 5 )
-RichTextLabel/fonts/normal_font = SubResource( 6 )
-VScrollBar/styles/grabber = SubResource( 1 )
-VScrollBar/styles/grabber_highlight = SubResource( 1 )
-VScrollBar/styles/grabber_pressed = SubResource( 2 )
-VScrollBar/styles/scroll = SubResource( 3 )
+RichTextLabel/colors/font_color_shadow = Color(0, 0, 0, 1)
+RichTextLabel/fonts/bold_font = SubResource("5")
+RichTextLabel/fonts/normal_font = SubResource("6")
+VScrollBar/styles/grabber = SubResource("1")
+VScrollBar/styles/grabber_highlight = SubResource("1")
+VScrollBar/styles/grabber_pressed = SubResource("2")
+VScrollBar/styles/scroll = SubResource("3")

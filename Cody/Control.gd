@@ -5,13 +5,13 @@ var p
 var an = 6
 var e
 var x = RandomNumberGenerator.new()
-onready var song = get_node("Config/Panel/Song/tex_button")
-onready var efx = get_node("Config/Panel/Som/tex_button") 
-onready var sp = get_node("Sprite/AnimationPlayer")
-onready var musi = GameAudio.get_node("Musica/Musica")
-onready var ss = get_node("Config/Panel/60")
-onready var nv = get_node("Config/Panel/90")
-onready var tr = get_node("Config/Panel/30")
+@onready var song = get_node("Config/Panel/Song/tex_button")
+@onready var efx = get_node("Config/Panel/Som/tex_button") 
+@onready var sp = get_node("Sprite2D/AnimationPlayer")
+@onready var musi = GameAudio.get_node("Musica/Musica")
+@onready var ss = get_node("Config/Panel/60")
+@onready var nv = get_node("Config/Panel/90")
+@onready var tr = get_node("Config/Panel/30")
 var so = preload("res://Sprites/Song_on.png")
 var sof = preload("res://Sprites/Song_off.png")
 var eo =  preload("res://Sprites/Som_on.png")
@@ -24,11 +24,11 @@ func _ready():
 	if Globals.tempo == 0 or Globals.tempo == 30:
 		Globals.tempo = 60
 	if Globals.tempo == 60:
-		tr.pressed = true
+		tr.button_pressed = true
 	elif Globals.tempo == 90:
-		ss.pressed = true
+		ss.button_pressed = true
 	else:
-		nv.pressed = true
+		nv.button_pressed = true
 	Globals.efemenu = false #Impede os sons de efeito de tocar fora da tela de jogo
 	if(Globals.musi == true):
 		song.set_normal_texture(so)
@@ -45,17 +45,17 @@ func _ready():
 	if(musi.playing == false):
 		musi.play()
 	sp.play("0")
-	yield(sp, "animation_finished")
+	await sp.animation_finished
 	sp.play("1")  
-	yield(sp, "animation_finished")
+	await sp.animation_finished
 	sp.play("0") 
-	yield(sp, "animation_finished")
+	await sp.animation_finished
 	sp.play("2")  
-	yield(sp, "animation_finished")
+	await sp.animation_finished
 	sp.play("0") 
-	yield(sp, "animation_finished")
+	await sp.animation_finished
 	sp.play("3")  
-	yield(sp, "animation_finished")
+	await sp.animation_finished
 	sp.play("0") 
 	pass
 # Botão de sair
@@ -72,7 +72,7 @@ func _on_Jogar_pressed():
 # Botão de voltar
 func _Vol_pressed():
 	GameAudio.som_do_botao()
-	s = get_tree().change_scene("res://Scenes/Sobre.tscn")
+	s = get_tree().change_scene_to_file("res://Scenes/Sobre.tscn")
 	pass 
 	
 func _on_Song_pressed():
@@ -108,17 +108,17 @@ func _on_som_pressed():
 func a_spt(): #Sorteia as animações
 	if an == 0:
 		sp.play("0")
-		yield(sp, "animation_finished")
+		await sp.animation_finished
 		sp.play("1")  
-		yield(sp, "animation_finished")
+		await sp.animation_finished
 		sp.play("0") 
-		yield(sp, "animation_finished")
+		await sp.animation_finished
 		sp.play("2")  
-		yield(sp, "animation_finished")
+		await sp.animation_finished
 		sp.play("0") 
-		yield(sp, "animation_finished")
+		await sp.animation_finished
 		sp.play("3")  
-		yield(sp, "animation_finished")
+		await sp.animation_finished
 		sp.play("0") 
 		an = 6
 	pass
@@ -126,7 +126,7 @@ func a_spt(): #Sorteia as animações
 
 
 func _notification(what):
-	if what == MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
+#	if what == MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
 		GameAudio.som_do_botao()
 		get_tree().quit()
 
@@ -149,24 +149,24 @@ func _on_Fechar_pressed():
 func _on_30_pressed():
 	GameAudio.som_do_botao()
 	Globals.tempo = 60
-	ss.pressed = false
-	nv.pressed = false
+	ss.button_pressed = false
+	nv.button_pressed = false
 	Globals.save_game()
 
 
 func _on_60_pressed():
 	GameAudio.som_do_botao()
 	Globals.tempo = 90
-	tr.pressed = false
-	nv.pressed = false
+	tr.button_pressed = false
+	nv.button_pressed = false
 	Globals.save_game()
 
 
 func _on_90_pressed():
 	GameAudio.som_do_botao()
 	Globals.tempo = 120
-	ss.pressed = false
-	tr.pressed = false
+	ss.button_pressed = false
+	tr.button_pressed = false
 	Globals.save_game()
 
 

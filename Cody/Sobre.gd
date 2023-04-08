@@ -8,13 +8,13 @@ func _ready():
 # Botão de voltar
 func _on_Voltar_pressed():
 	GameAudio.som_do_botao()
-	v = get_tree().change_scene("res://Scenes/Control.tscn")
+	v = get_tree().change_scene_to_file("res://Scenes/Control.tscn")
 	queue_free()
 # botão de voltar
 func _notification(what):
 	if what == MainLoop.NOTIFICATION_WM_GO_BACK_REQUEST:
 		GameAudio.som_do_botao()
-		var _a = get_tree().change_scene("res://Scenes/Control.tscn")
+		var _a = get_tree().change_scene_to_file("res://Scenes/Control.tscn")
 		queue_free()
 		
 
